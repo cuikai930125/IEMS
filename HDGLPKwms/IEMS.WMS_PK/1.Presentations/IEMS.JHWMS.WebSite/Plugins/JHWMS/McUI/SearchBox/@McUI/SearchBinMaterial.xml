@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UiConfig>
+  <Captions>
+    <Caption Name="MATER_NO"    Value="物料编码"></Caption>
+    <Caption Name="MATER_NAME"  Value="物料名称"></Caption>
+    <Caption Name="BIN_COUNT"   Value="库存数量"></Caption>
+    <Caption Name="BTIME"       Value="起始日期"></Caption>
+    <Caption Name="ETIME"       Value="结束日期"></Caption>
+  </Captions>
+  <WebPage Title="物料信息">
+  </WebPage>
+  <Select>
+    <ParamPanel>
+      <ParamFields>
+        <ParamField FieldName="MATER_NO"></ParamField>
+        <ParamField FieldName="MATER_NAME"></ParamField>
+        <ParamField FieldName="BTIME" Type="DateBox" DefaultValue="-366"></ParamField>
+        <ParamField FieldName="ETIME" Type="DateBox" DefaultValue="0"></ParamField>
+      </ParamFields>
+    </ParamPanel>
+    <MainGrid>
+      <GridColumns>
+        <GridColumn ColumnName="MATER_NO"     Width="140"></GridColumn>
+        <GridColumn ColumnName="MATER_NAME"   ></GridColumn>
+        <GridColumn ColumnName="BIN_COUNT"    Width="60"></GridColumn>
+        <GridColumn ColumnName="BTIME"        Width="140" ColumnType="Date" ColumnFormt="yyyy-MM-dd" IsShow="False"></GridColumn>
+        <GridColumn ColumnName="ETIME"        Width="140" ColumnType="Date" ColumnFormt="yyyy-MM-dd" IsShow="False"></GridColumn>
+      </GridColumns>
+    </MainGrid>
+  </Select>
+</UiConfig>

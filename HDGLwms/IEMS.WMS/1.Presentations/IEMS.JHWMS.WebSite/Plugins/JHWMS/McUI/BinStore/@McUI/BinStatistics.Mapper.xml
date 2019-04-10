@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.Frame.DbCI.McUIService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+   <statements>
+     <select id="Select@BinStatistics" parameterClass="map" resultClass="row">
+       <![CDATA[                     
+        SELECT T1.MATER_NO,
+               T1.MATER_NAME,
+               COUNT(T1.MATER_NO) AS MATERIAL_NUM
+          FROM WBS_BIN T
+         INNER JOIN WBS_PACKAGE_DATA T1 ON T1.PACKAGE_GUID =  T.PACKAGE_GUID
+      ]]>
+       <dynamic prepend="where">
+         <isNotNull property="where.MATER_NO" prepend="AND">
+           <![CDATA[ T1.MATER_NO like '%'+#where.MATER_NO#+'%']]>
+         </isNotNull>
+         <isNotNull property="where.BTIME" prepend="AND">
+           <![CDATA[ T.CREATION_DATE >=#where.BTIME#  ]]>
+         </isNotNull>
+         <isNotNull property="where.ETIME" prepend="AND">
+           <![CDATA[ T.CREATION_DATE <= 1+#where.ETIME#  ]]>
+         </isNotNull>
+       </dynamic>
+         GROUP BY T1.MATER_NO, T1.MATER_NAME
+         ORDER BY T1.MATER_NO
+     </select>
+  </statements>
+</sqlMap>

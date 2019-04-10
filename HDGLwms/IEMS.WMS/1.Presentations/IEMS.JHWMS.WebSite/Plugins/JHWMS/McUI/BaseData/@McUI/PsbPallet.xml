@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UiConfig>
+  <Captions>
+    <Caption Name="PALLET_NO"           Value="工装编号" ></Caption>
+    <Caption Name="PALLET_TYPE"         Value="工装类型" ></Caption>
+    <Caption Name="PALLET_WEIGHT"       Value="工装重量" ></Caption>
+    <Caption Name="LOAD_STATUS"         Value="有载标记" ></Caption>
+    <Caption Name="PRODUCT_GUID"        Value="绑定产品GUID" ></Caption>
+    <Caption Name="BINDING_TIME"        Value="绑定时间" ></Caption>
+    <Caption Name="LAST_PRODUCT_GUID"   Value="上次绑定产品GUID" ></Caption>
+    <Caption Name="MATER_NO"            Value="物料编号" ></Caption>
+    <Caption Name="CREATION_DATE"       Value="创建时间" ></Caption>
+  </Captions>
+  <WebPage Title="工装信息维护">
+  </WebPage>
+  <Crud TableName="PSB_PALLET">
+    <PrimaryKey FieldName="PALLET_NO" Identity="true"></PrimaryKey>
+    <DeleteFlag Value="DELETE_FLAG"></DeleteFlag>
+  </Crud>
+  <Insert UserField="RECORD_USER_ID" TimeField="RECORD_TIME">
+    <ParamPanel>
+      <ParamFields>
+        <ParamField FieldName="PALLET_NO"          ></ParamField>
+        <ParamField FieldName="PALLET_TYPE"        Nullable="true"></ParamField>
+        <ParamField FieldName="PALLET_WEIGHT"      Nullable="true"></ParamField>
+        <ParamField FieldName="LOAD_STATUS"        Nullable="true"></ParamField>
+        <ParamField FieldName="PRODUCT_GUID"       Nullable="true"></ParamField>
+        <ParamField FieldName="MATER_NO"           Nullable="true"></ParamField>
+      </ParamFields>
+    </ParamPanel>
+  </Insert>
+  <Update>
+    <ParamPanel>
+      <ParamFields>
+        <ParamField FieldName="PALLET_TYPE"      Nullable="true"></ParamField>
+        <ParamField FieldName="PALLET_WEIGHT"    Nullable="true"></ParamField>
+        <ParamField FieldName="LOAD_STATUS"      Nullable="true"></ParamField>
+        <ParamField FieldName="PRODUCT_GUID"     Nullable="true"></ParamField>
+        <ParamField FieldName="MATER_NO"         Nullable="true"></ParamField>
+      </ParamFields>
+    </ParamPanel>
+  </Update>
+  
+  <Select>
+    <ParamPanel>
+      <ParamFields>
+        <ParamField FieldName="PALLET_NO" WIDTH="120"></ParamField>
+      </ParamFields>
+    </ParamPanel>
+    <MainGrid PageSize ="50">
+      <GridColumns>
+        <GridColumn ColumnName="PALLET_NO"         WIDTH="120"></GridColumn>
+        <GridColumn ColumnName="PALLET_TYPE"       WIDTH="120"></GridColumn>
+        <GridColumn ColumnName="PALLET_WEIGHT"     WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="LOAD_STATUS"       WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="PRODUCT_GUID"      WIDTH="120"></GridColumn>
+        <GridColumn ColumnName="BINDING_TIME"      WIDTH="160" ColumnType="Date" ColumnFormt="yyyy-MM-dd HH:mm:ss"></GridColumn>
+        <GridColumn ColumnName="LAST_PRODUCT_GUID" WIDTH="160"></GridColumn>
+        <GridColumn ColumnName="MATER_NO"          WIDTH="160"></GridColumn>
+        <GridColumn ColumnName="CREATION_DATE"     WIDTH="160" ColumnType="Date" ColumnFormt="yyyy-MM-dd HH:mm:ss"></GridColumn>
+      </GridColumns>
+    </MainGrid>
+    <MainDetail>
+      <ParamFields>
+        <ParamField FieldName="PALLET_NO"        ></ParamField>
+        <ParamField FieldName="PALLET_TYPE"      ></ParamField>
+        <ParamField FieldName="PALLET_WEIGHT"    ></ParamField>
+        <ParamField FieldName="LOAD_STATUS"      ></ParamField>
+        <ParamField FieldName="PRODUCT_GUID"     ></ParamField>
+        <ParamField FieldName="BINDING_TIME"     ></ParamField>
+        <ParamField FieldName="LAST_PRODUCT_GUID"></ParamField>
+        <ParamField FieldName="MATER_NO"         ></ParamField>
+        <ParamField FieldName="CREATION_DATE"    ></ParamField>
+      </ParamFields>
+    </MainDetail>
+  </Select>
+</UiConfig>

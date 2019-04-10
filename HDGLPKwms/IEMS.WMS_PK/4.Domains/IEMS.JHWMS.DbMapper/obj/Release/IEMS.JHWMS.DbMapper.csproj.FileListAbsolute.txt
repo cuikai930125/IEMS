@@ -1,0 +1,5 @@
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Release\IEMS.JHWMS.DbMapper.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Release\IEMS.JHWMS.DbMapper.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Release\IEMS.JHWMS.DbMapper.csprojResolveAssemblyReference.cache
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Release\IEMS.JHWMS.DbMapper.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Release\IEMS.JHWMS.DbMapper.pdb

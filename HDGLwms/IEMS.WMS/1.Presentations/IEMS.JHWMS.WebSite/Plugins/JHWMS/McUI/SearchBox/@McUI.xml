@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<McUIConfig>
+  <McUI name="SearchOutLocData"     uri="@McUI\SearchOutLocData.xml"/>
+  <McUI name="SearchBinMaterial"    uri="@McUI\SearchBinMaterial.xml"/>
+  <McUI name="SearchInLocData"      uri="@McUI\SearchInLocData.xml"/>
+  <McUI name="SearchPalletData"     uri="@McUI\SearchPalletData.xml"/>
+  <McUI name="SearchErrOutLocData"  uri="@McUI\SearchOutLocData.xml"/>
+</McUIConfig>

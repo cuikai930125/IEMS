@@ -1,0 +1,10 @@
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Release\IEMS.JHWMS.WebUI.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Release\IEMS.JHWMS.WebUI.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Release\IEMS.Frame.WebUI.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Release\IEMS.Frame.AppBiz.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Release\IEMS.Frame.Entity.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Release\IEMS.Frame.DbCI.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Release\IEMS.Frame.DbRI.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\1.Presentations\IEMS.JHWMS.WebUI\obj\Release\IEMS.JHWMS.WebUI.csprojResolveAssemblyReference.cache
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\1.Presentations\IEMS.JHWMS.WebUI\obj\Release\IEMS.JHWMS.WebUI.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\1.Presentations\IEMS.JHWMS.WebUI\obj\Release\IEMS.JHWMS.WebUI.pdb

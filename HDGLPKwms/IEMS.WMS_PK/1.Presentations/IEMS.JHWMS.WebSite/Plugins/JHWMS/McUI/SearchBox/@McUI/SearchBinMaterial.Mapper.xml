@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.Frame.DbCI.McUIService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  
+   <statements>
+    <select id="Select@SearchBinMaterial" parameterClass="map" resultClass="row">
+      <![CDATA[        
+        SELECT T1.MATER_NO,
+               ISNULL(T1.MATER_NAME,T1.MATER_NO) MATER_NAME,
+               SUM(1) BIN_COUNT,
+               #where.BTIME# as BTIME,
+              (1+#where.ETIME#) as ETIME
+          FROM WBS_BIN T
+          JOIN WBS_PACKAGE_DATA T1
+            ON T1.PACKAGE_GUID = T.PACKAGE_GUID
+          JOIN PSB_BIN_STATUS T2
+            ON T2.BIN_NO = T.BIN_NO
+         WHERE T2.USED_FLAG = 1
+           AND T2.BIN_STATUS = CHAR(36)
+           AND T2.BIN_BIZ_STATUS = '_'
+      ]]>
+      <dynamic prepend="">
+         <isNotNull property="where.PRODUCT_ID" prepend="AND">
+          <![CDATA[ T1.MATER_NO like '%'+#where.MATER_NO#+'%']]>
+         </isNotNull>
+        <isNotNull property="where.PRODUCT_NAME" prepend="AND">
+          <![CDATA[ T1.MATER_NAME like '%'+#where.MATER_NAME#+'%']]>
+        </isNotNull>
+        <isNotNull property="where.BTIME" prepend="AND">
+          <![CDATA[ T1.PRODUCT_DATE >=#where.BTIME#  ]]>
+        </isNotNull>
+        <isNotNull property="where.ETIME" prepend="AND">
+          <![CDATA[ T1.PRODUCT_DATE <= 1+#where.ETIME#  ]]>
+        </isNotNull>
+       </dynamic>
+      GROUP BY T1.MATER_NO, T1.MATER_NAME
+      ORDER BY T1.MATER_NO
+    </select>
+  </statements>
+</sqlMap>

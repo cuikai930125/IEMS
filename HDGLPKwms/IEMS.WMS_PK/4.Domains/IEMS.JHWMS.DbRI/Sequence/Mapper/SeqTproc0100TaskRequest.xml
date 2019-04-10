@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.JHWMS.DbRI.SeqTproc0100TaskRequestService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+   <!--本文件为自动生成，不允许进行修改-->
+   <statements>
+    <select id="SEQ_TPROC_0100_TASK_REQUEST.NEXTVAL" resultClass="int">
+	  <![CDATA[SELECT NEXT VALUE FOR SEQ_TPROC_0100_TASK_REQUEST]]>
+    </select>
+    <select id="SEQ_TPROC_0100_TASK_REQUEST.CURRVAL" resultClass="int">
+	  <![CDATA[SELECT CURRENT_VALUE FROM SYS.SEQUENCES WHERE NAME = 'SEQ_TPROC_0100_TASK_REQUEST']]>
+    </select>
+  </statements>
+</sqlMap>

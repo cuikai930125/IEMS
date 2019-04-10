@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UiConfig>
+<Captions>
+  <Caption Name="BIN_NO"          Value="库位号" ></Caption>
+  <Caption Name="CREATION_DATE"   Value="入库时间" ></Caption>
+  <Caption Name="BIN_STATUS"      Value="库存状态" ></Caption>
+  <Caption Name="BIN_BIZ_STATUS"  Value="业务状态" ></Caption>
+  <Caption Name="PALLET_NO"       Value="工装编号" ></Caption>
+  <Caption Name="MATER_NO"        Value="物料代号" ></Caption>
+  <Caption Name="MATER_NAME"      Value="物料名称"></Caption>
+  <Caption Name="PRODUCT_GUID"    Value="生产条码" ></Caption>
+  <Caption Name="PRODUCT_DATE"    Value="生产日期" ></Caption>
+  <Caption Name="PRODUCT_QTY"     Value="数量" ></Caption>
+  <Caption Name="MAIN_UNIT"       Value="单位"></Caption>
+  <Caption Name="BTIME"           Value="起始日期"></Caption>
+  <Caption Name="ETIME"           Value="结束日期"></Caption>
+</Captions>
+<WebPage Title="库存信息查询">
+ </WebPage>
+ <Select>
+ <ParamPanel>
+   <ParamFields>
+     <ParamField FieldName="BIN_NO"></ParamField>
+     <ParamField FieldName="MATER_NO"></ParamField>
+     <ParamField FieldName="PALLET_NO"></ParamField>
+     <ParamField FieldName="BTIME" Type="DateBox" DefaultValue="-366"></ParamField>
+     <ParamField FieldName="ETIME" Type="DateBox" DefaultValue="0"></ParamField>
+   </ParamFields>
+  </ParamPanel>
+ <MainGrid PageSize="50">
+  <GridColumns>
+    <GridColumn ColumnName="BIN_NO"          Width="80"></GridColumn>
+    <GridColumn ColumnName="CREATION_DATE"   Width="140"  ColumnType="Date" ColumnFormt="yyyy-MM-dd"></GridColumn>
+    <GridColumn ColumnName="BIN_STATUS"      Width="80"></GridColumn>
+    <GridColumn ColumnName="BIN_BIZ_STATUS"  Width="80"></GridColumn>
+    <GridColumn ColumnName="PALLET_NO"       Width="120"></GridColumn>
+    <GridColumn ColumnName="MATER_NO"        Width="140"></GridColumn>
+    <GridColumn ColumnName="MATER_NAME"      Width="140"></GridColumn>
+    <GridColumn ColumnName="PRODUCT_GUID"    Width="140"></GridColumn>
+    <GridColumn ColumnName="PRODUCT_DATE"    Width="140"  ColumnType="Date" ColumnFormt="yyyy-MM-dd"></GridColumn>
+    <GridColumn ColumnName="PRODUCT_QTY"     Width="80"></GridColumn>
+    <GridColumn ColumnName="MAIN_UNIT"       Width="80"></GridColumn>
+  </GridColumns>
+ </MainGrid>
+  <MainDetail>
+    <ParamFields>
+      <ParamField FieldName="BIN_NO"          ></ParamField>
+      <ParamField FieldName="CREATION_DATE"   ColumnType="Date" ColumnFormt="yyyy-MM-dd"></ParamField>
+      <ParamField FieldName="BIN_STATUS"      ></ParamField>
+      <ParamField FieldName="BIN_BIZ_STATUS"  ></ParamField>
+      <ParamField FieldName="PALLET_NO"       ></ParamField>
+      <ParamField FieldName="MATER_NO"        ></ParamField>
+      <ParamField FieldName="MATER_NAME"      ></ParamField>
+      <ParamField FieldName="PRODUCT_GUID"    ></ParamField>
+      <ParamField FieldName="PRODUCT_DATE"     ColumnType="Date" ColumnFormt="yyyy-MM-dd"></ParamField>
+      <ParamField FieldName="PRODUCT_QTY"     ></ParamField>
+      <ParamField FieldName="MAIN_UNIT"       ></ParamField>
+    </ParamFields>
+  </MainDetail>
+ </Select>
+</UiConfig>

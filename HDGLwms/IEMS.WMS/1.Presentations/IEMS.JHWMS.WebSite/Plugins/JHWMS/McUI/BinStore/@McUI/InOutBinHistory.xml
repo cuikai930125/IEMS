@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UiConfig>
+<Captions>
+  <Caption Name="BIN_GUID"            Value="GUID"></Caption>
+  <Caption Name="BIN_NO"              Value="库位编号"></Caption>
+  <Caption Name="IO_TYPE"             Value="类型"></Caption>
+  <Caption Name="CREATION_DATE"       Value="创建时间"></Caption>
+  <Caption Name="PALLET_NO"           Value="工装编号"></Caption>
+  <Caption Name="MATER_NO"            Value="物料编号"></Caption>
+  <Caption Name="MATER_NAME"          Value="物料名称"></Caption>
+  <Caption Name="FINISH_FLAG"         Value="结束标记"></Caption>
+  <Caption Name="LOC_NO"              Value="起始/目的站台"></Caption>
+  <Caption Name="TASK_NO"             Value="任务编号"></Caption>
+  <Caption Name="CREATE_TASK_DATE"    Value="任务创建时间"></Caption>
+  <Caption Name="TASK_EXEC_START_DT"  Value="任务执行时间"></Caption>
+  <Caption Name="TASK_EXEC_END_DT"    Value="任务结束时间"></Caption>
+  <Caption Name="BTIME"               Value="开始日期"></Caption>
+  <Caption Name="ETIME"               Value="结束日期"></Caption>
+</Captions>
+<WebPage Title="出入库历史">
+ </WebPage>
+ <Select>
+   <ParamPanel>
+     <ParamFields>
+       <ParamField FieldName="IO_TYPE"></ParamField>
+       <ParamField FieldName="BIN_NO"></ParamField>
+       <ParamField FieldName="PALLET_NO"></ParamField>
+       <ParamField FieldName="BTIME" Type="DateBox" DefaultValue="-5"></ParamField>
+       <ParamField FieldName="ETIME" Type="DateBox" DefaultValue="0"></ParamField>
+     </ParamFields>
+    </ParamPanel>
+   <MainGrid PageSize="50">
+    <GridColumns>
+      <GridColumn ColumnName="BIN_NO"                Width="80"></GridColumn>
+      <GridColumn ColumnName="IO_TYPE"               Width="60"></GridColumn>
+      <GridColumn ColumnName="CREATION_DATE"         Width="140" ColumnType="Date" ColumnFormt="yyyy-MM-dd"></GridColumn>
+      <GridColumn ColumnName="PALLET_NO"             Width="100"></GridColumn>
+      <GridColumn ColumnName="MATER_NO"              Width="100"></GridColumn>
+      <GridColumn ColumnName="MATER_NAME"            Width="120"></GridColumn>
+      <GridColumn ColumnName="FINISH_FLAG"           Width="140"></GridColumn>
+      <GridColumn ColumnName="LOC_NO"                Width="120"></GridColumn>
+      <GridColumn ColumnName="TASK_NO"               Width="80"></GridColumn>
+      <GridColumn ColumnName="CREATE_TASK_DATE"      Width="140" ColumnType="Date" ColumnFormt="yyyy-MM-dd"></GridColumn>
+      <GridColumn ColumnName="TASK_EXEC_START_DT"    Width="140" ColumnType="Date" ColumnFormt="yyyy-MM-dd"></GridColumn>
+      <GridColumn ColumnName="TASK_EXEC_END_DT"      Width="140" ColumnType="Date" ColumnFormt="yyyy-MM-dd"></GridColumn>
+      <GridColumn ColumnName="BIN_GUID"              Width="1" IsShow="False"></GridColumn>
+    </GridColumns>
+   </MainGrid>
+   <MainDetail>
+     <ParamFields>
+       <ParamField FieldName="BIN_NO"             ></ParamField>
+       <ParamField FieldName="IO_TYPE"            ></ParamField>
+       <ParamField FieldName="CREATION_DATE"      ColumnType="Date" ColumnFormt="yyyy-MM-dd"></ParamField>
+       <ParamField FieldName="PALLET_NO"          ></ParamField>
+       <ParamField FieldName="MATER_NO"           ></ParamField>
+       <ParamField FieldName="MATER_NAME"         ></ParamField>
+       <ParamField FieldName="FINISH_FLAG"        ></ParamField>
+       <ParamField FieldName="LOC_NO"             ></ParamField>
+       <ParamField FieldName="TASK_NO"            ></ParamField>
+       <ParamField FieldName="CREATE_TASK_DATE"   ColumnType="Date" ColumnFormt="yyyy-MM-dd"></ParamField>
+       <ParamField FieldName="TASK_EXEC_START_DT" ColumnType="Date" ColumnFormt="yyyy-MM-dd"></ParamField>
+       <ParamField FieldName="TASK_EXEC_END_DT"   ColumnType="Date" ColumnFormt="yyyy-MM-dd"></ParamField>
+       <ParamField FieldName="BIN_GUID"   ></ParamField>
+     </ParamFields>
+   </MainDetail>
+ </Select>
+</UiConfig>

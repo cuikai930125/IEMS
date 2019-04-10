@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.Frame.DbCI.McUIService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+   <statements>
+    <select id="Select@CmdRequest" parameterClass="map" resultClass="row">
+      <![CDATA[ 
+      SELECT TOP 1000 T.[OBJID]
+            ,CASE T.[ERR_CODE] WHEN 0 THEN '正常' ELSE '异常' END ERR_CODE
+            ,T.[ERR_DESC]
+            ,CASE T.[PROC_STATUS] WHEN 0 THEN '等待' WHEN 1 THEN '执行' WHEN 2 THEN '完成' END PROC_STATUS
+            ,T.[PROC_CREATE_TIME]
+            ,T.[PROC_EXCUTE_TIME]
+            ,T.[PROC_FINISH_TIME]
+            ,T.[TASK_NO]
+            ,T.[CURR_LOC_NO]
+            ,T.[PALLET_NO]
+            ,T.[TASK_GUID]
+            ,T.[ROUTE_NO]
+            ,T.[ELOC_NO]
+            ,T.[PACKAGE_GUID]
+            ,T.[IO_TYPE]
+            ,T.[TRANSFER_NO]
+            ,T.[SLOC_TYPE]
+            ,T.[SLOC_AREA]
+            ,T.[ELOC_TYPE]
+            ,T.[ELOC_AREA]
+            ,T.[CMD_OBJID]
+        FROM [dbo].[TPROC_0200_CMD_REQUEST] T
+        LEFT JOIN PSB_LOC T1 ON T1.LOC_NO = T.CURR_LOC_NO
+        LEFT JOIN PSB_LOC T2 ON T2.LOC_NO = T.ELOC_NO
+      ]]>
+      <dynamic prepend="WHERE">
+         <isNotNull property="where.OBJID" prepend="AND">
+           <![CDATA[ T.OBJID = #where.OBJID#]]>
+         </isNotNull>
+         <isNotNull property="where.PALLET_NO" prepend="AND">
+           <![CDATA[ T.PALLET_NO LIKE '%'+#where.PALLET_NO#+'%']]>
+         </isNotNull>
+         <isNotNull property="where.CURR_LOC_NO" prepend="AND">
+           <![CDATA[ T.CURR_LOC_NO = #where.CURR_LOC_NO#]]>
+         </isNotNull>
+       </dynamic>
+      ORDER BY T.OBJID DESC
+    </select>
+     <select id="Select@CmdRequest@MainDetail" parameterClass="int" resultClass="row">
+       <![CDATA[ 
+       SELECT * FROM TPROC_0200_CMD_REQUEST T
+      ]]>
+       <dynamic prepend="WHERE">
+         <isNotNull property="where.OBJID" prepend = "AND">
+           <![CDATA[ T.OBJID = #where.OBJID#]]>                                                                                                                                                                                                                                                                  
+         </isNotNull>
+       </dynamic>
+     </select>
+  </statements>
+</sqlMap>

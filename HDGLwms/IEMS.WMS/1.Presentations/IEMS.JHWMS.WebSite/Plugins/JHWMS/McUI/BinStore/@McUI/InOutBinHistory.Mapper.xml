@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.Frame.DbCI.McUIService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+   <statements>
+     <select id="Select@InOutBinHistory" parameterClass="map" resultClass="row">
+      
+       <![CDATA[ 
+       SELECT T.BIN_GUID,
+        T.BIN_NO,
+        CASE WHEN T.IO_TYPE = 'I' THEN '入库'
+             WHEN T.IO_TYPE = 'O' THEN '出库'
+        END IO_TYPE,
+        T.CREATION_DATE,
+        T.PALLET_NO,
+        ISNULL(T1.MATER_NO,T2.MATER_NO) MATER_NO,
+        ISNULL(T1.MATER_NAME,T2.MATER_NAME) MATER_NAME,
+        CASE WHEN T.FINISH_FLAG IS NULL OR T.FINISH_FLAG = '_' THEN '正常'
+        ELSE T.FINISH_FLAG END FINISH_FLAG,
+        CASE WHEN T.IO_TYPE = 'I' THEN ISNULL(T3.SLOC_NO,T4.SLOC_NO)
+             WHEN T.IO_TYPE = 'O' THEN ISNULL(T3.ELOC_NO,T4.ELOC_NO) 
+        END LOC_NO,
+        ISNULL(T3.TASK_NO,T4.TASK_NO) TASK_NO,
+        ISNULL(T3.CREATION_DATE,T4.CREATION_DATE) CREATE_TASK_DATE,
+        ISNULL(T3.TASK_EXEC_START_DT,T4.TASK_EXEC_START_DT) TASK_EXEC_START_DT,
+        ISNULL(T3.TASK_EXEC_END_DT,T4.TASK_EXEC_END_DT) TASK_EXEC_END_DT
+        FROM Z50_WBS_BIN T
+        LEFT JOIN WBS_PACKAGE_DATA T1 ON T1.PACKAGE_GUID = T.PACKAGE_GUID
+        LEFT JOIN Z50_WBS_PACKAGE_DATA T2 ON T2.PACKAGE_GUID = T.PACKAGE_GUID
+        LEFT JOIN WBS_TASK T3 ON T3.TASK_GUID = T.TASK_GUID
+        LEFT JOIN Z50_WBS_TASK T4 ON T4.TASK_GUID = T.TASK_GUID
+      ]]>
+       <dynamic prepend="where">
+         <isNotNull property="where.IO_TYPE" prepend="AND">
+           T.IO_TYPE like '%'+#where.IO_TYPE#+'%'
+         </isNotNull>
+         <isNotNull property="where.PALLET_NO" prepend="AND">
+           T.PALLET_NO like '%'+#where.PALLET_NO#+'%'
+         </isNotNull>
+         <isNotNull property="where.BIN_NO" prepend="AND">
+           T.BIN_NO like '%'+#where.BIN_NO#+'%'
+         </isNotNull>
+         <isNotNull property="where.BTIME" prepend="AND">
+           <![CDATA[ T.CREATION_DATE >=#where.BTIME#  ]]>
+         </isNotNull>
+         <isNotNull property="where.ETIME" prepend="AND">
+           <![CDATA[ T.CREATION_DATE <= 1+#where.ETIME#  ]]>
+         </isNotNull>
+       </dynamic>
+       <isNotNull property="Order By" prepend="">
+         order by t.creation_date desc
+       </isNotNull>
+     </select>
+     <select id="Select@InOutBinHistory@MainDetail" parameterClass="map" resultClass="row">
+       <![CDATA[ 
+        SELECT T.BIN_GUID,
+        T.BIN_NO,
+        CASE WHEN T.IO_TYPE = 'I' THEN '入库'
+             WHEN T.IO_TYPE = 'O' THEN '出库'
+        END IO_TYPE,
+        T.CREATION_DATE,
+        T.PALLET_NO,
+        ISNULL(T1.MATER_NO,T2.MATER_NO) MATER_NO,
+        ISNULL(T1.MATER_NAME,T2.MATER_NAME) MATER_NAME,
+        CASE WHEN T.FINISH_FLAG IS NULL OR T.FINISH_FLAG = '_' THEN '正常'
+        ELSE T.FINISH_FLAG END FINISH_FLAG,
+        CASE WHEN T.IO_TYPE = 'I' THEN ISNULL(T3.SLOC_NO,T4.SLOC_NO)
+             WHEN T.IO_TYPE = 'O' THEN ISNULL(T3.ELOC_NO,T4.ELOC_NO) 
+        END LOC_NO,
+        ISNULL(T3.TASK_NO,T4.TASK_NO) TASK_NO,
+        ISNULL(T3.CREATION_DATE,T4.CREATION_DATE) CREATE_TASK_DATE,
+        ISNULL(T3.TASK_EXEC_START_DT,T4.TASK_EXEC_START_DT) TASK_EXEC_START_DT,
+        ISNULL(T3.TASK_EXEC_END_DT,T4.TASK_EXEC_END_DT) TASK_EXEC_END_DT
+        FROM Z50_WBS_BIN T
+        LEFT JOIN WBS_PACKAGE_DATA T1 ON T1.PACKAGE_GUID = T.PACKAGE_GUID
+        LEFT JOIN Z50_WBS_PACKAGE_DATA T2 ON T2.PACKAGE_GUID = T.PACKAGE_GUID
+        LEFT JOIN WBS_TASK T3 ON T3.TASK_GUID = T.TASK_GUID
+        LEFT JOIN Z50_WBS_TASK T4 ON T4.TASK_GUID = T.TASK_GUID
+      ]]>
+       <dynamic prepend="WHERE">
+         <isNotNull property="where.BIN_GUID" prepend = "AND">
+           T.BIN_GUID = #where.BIN_GUID#
+         </isNotNull>
+       </dynamic>
+     </select>
+  </statements>
+</sqlMap>

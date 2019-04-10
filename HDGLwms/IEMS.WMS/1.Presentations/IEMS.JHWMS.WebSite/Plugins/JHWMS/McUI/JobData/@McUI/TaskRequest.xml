@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UiConfig>
+  <Captions>
+    <Caption Name="OBJID"               Value="主键ID" ></Caption>
+    <Caption Name="PROC_STATUS"         Value="状态" ></Caption>
+    <Caption Name="ERR_CODE"            Value="执行结果" ></Caption>
+    <Caption Name="ERR_DESC"            Value="错误描述" ></Caption>
+    <Caption Name="PROC_CREATE_TIME"    Value="创建时间" ></Caption>
+    <Caption Name="PROC_EXCUTE_TIME"    Value="开始执行时间" ></Caption>
+    <Caption Name="PROC_FINISH_TIME"    Value="结束执行时间" ></Caption>
+    <Caption Name="ORDER_TYPE_NO"       Value="订单类型编号" ></Caption>
+    <Caption Name="ORDER_TYPE_MODULE"   Value="业务类型" ></Caption>
+    <Caption Name="SLOC_NO"             Value="起始站台" ></Caption>
+    <Caption Name="ELOC_NO"             Value="目的站台" ></Caption>
+    <Caption Name="PALLET_NO"           Value="工装编号" ></Caption>
+    <Caption Name="PALLET_TYPE"         Value="工装类型" ></Caption>
+    <Caption Name="SLOC_TYPE"           Value="起始站台类型" ></Caption>
+    <Caption Name="SLOC_AREA"           Value="起始站台区域" ></Caption>
+    <Caption Name="ELOC_TYPE"           Value="目的站台类型" ></Caption>
+    <Caption Name="ELOC_AREA"           Value="目的站台区域" ></Caption>
+    <Caption Name="ROUTE_NOS"           Value="执行路径串" ></Caption>
+    <Caption Name="PACKAGE_GUID"        Value="数据包GUID" ></Caption>
+    <Caption Name="TASK_GUID"           Value="任务GUID" ></Caption>
+    <Caption Name="TASK_NO"             Value="生成任务号" ></Caption>
+  </Captions>
+  <WebPage Title="任务请求处理">
+  </WebPage>
+  <Select>
+    <ParamPanel>
+      <ParamFields>
+        <ParamField FieldName="OBJID"     WIDTH="80"></ParamField>
+        <ParamField FieldName="SLOC_NO"   WIDTH="100"></ParamField>
+        <ParamField FieldName="PALLET_NO" WIDTH="100"></ParamField>
+      </ParamFields>
+    </ParamPanel>
+    <MainGrid PageSize ="50">
+      <GridColumns>
+        <GridColumn ColumnName="OBJID"             WIDTH="80"></GridColumn>
+        <GridColumn ColumnName="PROC_STATUS"       WIDTH="80"></GridColumn>
+        <GridColumn ColumnName="ERR_CODE"          WIDTH="80"></GridColumn>
+        <GridColumn ColumnName="ERR_DESC"          WIDTH="160"></GridColumn>
+        <GridColumn ColumnName="PROC_CREATE_TIME"  WIDTH="150" ColumnType="Date" ColumnFormt="yyyy-MM-dd HH:mm:ss"></GridColumn>
+        <GridColumn ColumnName="PROC_EXCUTE_TIME"  WIDTH="150" ColumnType="Date" ColumnFormt="yyyy-MM-dd HH:mm:ss"></GridColumn>
+        <GridColumn ColumnName="PROC_FINISH_TIME"  WIDTH="150" ColumnType="Date" ColumnFormt="yyyy-MM-dd HH:mm:ss"></GridColumn>
+        <GridColumn ColumnName="ORDER_TYPE_NO"     WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="ORDER_TYPE_MODULE" WIDTH="80"></GridColumn>
+        <GridColumn ColumnName="SLOC_NO"           WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="ELOC_NO"           WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="PALLET_NO"         WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="PALLET_TYPE"       WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="TASK_NO"           WIDTH="80"></GridColumn>
+        <GridColumn ColumnName="SLOC_TYPE"         WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="SLOC_AREA"         WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="ELOC_TYPE"         WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="ELOC_AREA"         WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="ROUTE_NOS"         WIDTH="160"></GridColumn>
+        <GridColumn ColumnName="PACKAGE_GUID"      WIDTH="160"></GridColumn>
+        <GridColumn ColumnName="TASK_GUID"         WIDTH="160"></GridColumn>
+      </GridColumns>
+    </MainGrid>
+    <MainDetail>
+      <ParamFields>
+        <ParamField FieldName="OBJID"             ></ParamField>
+        <ParamField FieldName="PROC_STATUS"       ></ParamField>
+        <ParamField FieldName="ERR_CODE"          ></ParamField>
+        <ParamField FieldName="ERR_DESC"          ></ParamField>
+        <ParamField FieldName="PROC_CREATE_TIME"  ></ParamField>
+        <ParamField FieldName="PROC_EXCUTE_TIME"  ></ParamField>
+        <ParamField FieldName="PROC_FINISH_TIME"  ></ParamField>
+        <ParamField FieldName="ORDER_TYPE_NO"     ></ParamField>
+        <ParamField FieldName="ORDER_TYPE_MODULE" ></ParamField>
+        <ParamField FieldName="SLOC_NO"           ></ParamField>
+        <ParamField FieldName="ELOC_NO"           ></ParamField>
+        <ParamField FieldName="PALLET_NO"         ></ParamField>
+        <ParamField FieldName="PALLET_TYPE"       ></ParamField>
+        <ParamField FieldName="TASK_NO"           ></ParamField>
+        <ParamField FieldName="SLOC_TYPE"         ></ParamField>
+        <ParamField FieldName="SLOC_AREA"         ></ParamField>
+        <ParamField FieldName="ELOC_TYPE"         ></ParamField>
+        <ParamField FieldName="ELOC_AREA"         ></ParamField>
+        <ParamField FieldName="ROUTE_NOS"         ></ParamField>
+        <ParamField FieldName="PACKAGE_GUID"      ></ParamField>
+        <ParamField FieldName="TASK_GUID"         ></ParamField>
+      </ParamFields>
+    </MainDetail>
+  </Select>
+</UiConfig>

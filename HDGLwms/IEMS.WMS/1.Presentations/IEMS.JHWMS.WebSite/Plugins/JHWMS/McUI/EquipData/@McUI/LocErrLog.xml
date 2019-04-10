@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UiConfig>
+<Captions>
+    <Caption Name="LOC_PLC_NO" Value="叉编号" ></Caption>
+    <Caption Name="ERR_DESC" Value="错误名称" ></Caption>
+    <Caption Name="START_DATE" Value="报警开始时间" ></Caption>
+    <Caption Name="END_DATE" Value="报警结束时间" ></Caption>
+    <Caption Name="LAST_DATE" Value="处理时间" ></Caption>
+    <Caption Name="B_TIME" Value="开始时间" ></Caption>
+    <Caption Name="E_TIME" Value="结束时间" ></Caption>
+</Captions>
+<WebPage Title="输送线报警记录">
+ </WebPage>
+ <Select>
+   <ParamPanel>
+     <ParamFields>
+       <ParamField FieldName="LOC_PLC_NO"></ParamField>
+       <ParamField FieldName="ERR_DESC"></ParamField>
+       <ParamField FieldName="B_TIME" Type="DateBox" DefaultValue="0"></ParamField>
+       <ParamField FieldName="E_TIME" Type="DateBox" DefaultValue="0"></ParamField>
+     </ParamFields>
+   </ParamPanel>
+   <MainGrid PageSize ="50">     
+     <GridColumns>
+       <GridColumn ColumnName="LOC_PLC_NO" Width="80"></GridColumn>
+       <GridColumn ColumnName="ERR_DESC" Width="80"></GridColumn>
+       <GridColumn ColumnName="START_DATE" Width="160"></GridColumn>
+       <GridColumn ColumnName="END_DATE" Width="160"></GridColumn>
+       <GridColumn ColumnName="LAST_DATE" Width="100"></GridColumn>
+     </GridColumns>            
+   </MainGrid>
+ </Select>
+</UiConfig>
+

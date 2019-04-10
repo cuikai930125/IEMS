@@ -1,0 +1,58 @@
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csprojResolveAssemblyReference.cache
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csproj.CoreCompileInputs.cache
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csproj.CoreCompileInputs.cache
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csproj.CoreCompileInputs.cache
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csproj.CoreCompileInputs.cache
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csprojResolveAssemblyReference.cache
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csproj.CoreCompileInputs.cache
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\01项目相关\05华鼎国联项目\华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+D:\01项目相关\05华鼎国联项目\华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+D:\01项目相关\05华鼎国联项目\华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csproj.CoreCompileInputs.cache
+D:\01项目相关\05华鼎国联项目\华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+D:\01项目相关\05华鼎国联项目\华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
+E:\00 MESNAC\Project Mangement\06华鼎国联\SourceCode\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\SourceCode\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+E:\00 MESNAC\Project Mangement\06华鼎国联\SourceCode\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csproj.CoreCompileInputs.cache
+E:\00 MESNAC\Project Mangement\06华鼎国联\SourceCode\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+E:\00 MESNAC\Project Mangement\06华鼎国联\SourceCode\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
+E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csproj.CoreCompileInputs.cache
+E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb

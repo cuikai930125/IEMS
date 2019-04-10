@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.JHWMS.DbRI.SspUserActionService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <alias>
+     <typeAlias alias="SspUserAction" type="IEMS.JHWMS.Entity.SspUserAction, IEMS.JHWMS.Entity" />
+   </alias>
+   
+  <!--结果集映射 resultMap-->
+  <resultMap id="R_SspUserAction" class="SspUserAction">
+    <result property="UserId" column="user_id"/>
+    <result property="ActionId" column="action_id"/>
+    <result property="RecordUserId" column="record_user_id"/>
+    <result property="RecordTime" column="record_time"/>
+    <result property="BakupFlag" column="bakup_flag"/>
+    <result property="BakupTime" column="bakup_time"/>
+    <result property="ForeignNo" column="foreign_no"/>
+    <result property="SeqIndex" column="seq_index"/>
+    <result property="Remark" column="remark"/>
+    <result property="DeleteFlag" column="delete_flag"/>
+    <result property="BackupFlag" column="backup_flag"/>
+    <result property="BackupTime" column="backup_time"/>
+  </resultMap>
+  <!--参数集映射 parameterMap-->
+  <parameterMap id="P_SspUserAction" class="SspUserAction">
+    <parameter property="UserId" column="UserId"/>
+    <parameter property="ActionId" column="ActionId"/>
+    <parameter property="RecordUserId" column="RecordUserId"/>
+    <parameter property="RecordTime" column="RecordTime"/>
+    <parameter property="BakupFlag" column="BakupFlag"/>
+    <parameter property="BakupTime" column="BakupTime"/>
+    <parameter property="ForeignNo" column="ForeignNo"/>
+    <parameter property="SeqIndex" column="SeqIndex"/>
+    <parameter property="Remark" column="Remark"/>
+    <parameter property="DeleteFlag" column="DeleteFlag"/>
+    <parameter property="BackupFlag" column="BackupFlag"/>
+    <parameter property="BackupTime" column="BackupTime"/>
+  </parameterMap>
+
+   <!--本文件为自动生成，不允许进行修改-->
+   <statements>
+    <!--查询数据-->
+    <sql id="includeSelect">
+      <![CDATA[SELECT * FROM SSP_USER_ACTION ]]>
+    </sql>
+    <!--查询条件-->
+    <sql id="includeWhere">
+	  <dynamic prepend="WHERE">
+        <isNotNull property="where.ObjId" prepend="AND">
+          <isEqual property="where.ObjId" compareValue="-1147483648">
+            <![CDATA[objid IS NULL]]>
+          </isEqual>
+          <isEqual property="where.ObjId" compareValue="-1147483647">
+            <![CDATA[objid IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.ObjId" compareValue="-1147483648">
+          <isNotEqual property="where.ObjId" compareValue="-1147483647">
+            <![CDATA[objid = #where.ObjId#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.UserId" prepend="AND">
+          <isEqual property="where.UserId" compareValue="-1147483648">
+            <![CDATA[user_id IS NULL]]>
+          </isEqual>
+          <isEqual property="where.UserId" compareValue="-1147483647">
+            <![CDATA[user_id IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.UserId" compareValue="-1147483648">
+          <isNotEqual property="where.UserId" compareValue="-1147483647">
+            <![CDATA[user_id = #where.UserId#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.ActionId" prepend="AND">
+          <isEqual property="where.ActionId" compareValue="-1147483648">
+            <![CDATA[action_id IS NULL]]>
+          </isEqual>
+          <isEqual property="where.ActionId" compareValue="-1147483647">
+            <![CDATA[action_id IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.ActionId" compareValue="-1147483648">
+          <isNotEqual property="where.ActionId" compareValue="-1147483647">
+            <![CDATA[action_id = #where.ActionId#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.RecordUserId" prepend="AND">
+          <isEqual property="where.RecordUserId" compareValue="-1147483648">
+            <![CDATA[record_user_id IS NULL]]>
+          </isEqual>
+          <isEqual property="where.RecordUserId" compareValue="-1147483647">
+            <![CDATA[record_user_id IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.RecordUserId" compareValue="-1147483648">
+          <isNotEqual property="where.RecordUserId" compareValue="-1147483647">
+            <![CDATA[record_user_id = #where.RecordUserId#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.RecordTime" prepend="AND">
+          <isEqual property="where.RecordTime" compareValue="1234/12/23 0:00:00">
+            <![CDATA[record_time IS NULL]]>
+          </isEqual>
+          <isEqual property="where.RecordTime" compareValue="1234/12/24 0:00:00">
+            <![CDATA[record_time IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.RecordTime" compareValue="1234/12/23 0:00:00">
+          <isNotEqual property="where.RecordTime" compareValue="1234/12/24 0:00:00">
+            <![CDATA[record_time = #where.RecordTime#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.BakupFlag" prepend="AND">
+          <isEqual property="where.BakupFlag" compareValue="-1147483648">
+            <![CDATA[bakup_flag IS NULL]]>
+          </isEqual>
+          <isEqual property="where.BakupFlag" compareValue="-1147483647">
+            <![CDATA[bakup_flag IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.BakupFlag" compareValue="-1147483648">
+          <isNotEqual property="where.BakupFlag" compareValue="-1147483647">
+            <![CDATA[bakup_flag = #where.BakupFlag#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.BakupTime" prepend="AND">
+          <isEqual property="where.BakupTime" compareValue="1234/12/23 0:00:00">
+            <![CDATA[bakup_time IS NULL]]>
+          </isEqual>
+          <isEqual property="where.BakupTime" compareValue="1234/12/24 0:00:00">
+            <![CDATA[bakup_time IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.BakupTime" compareValue="1234/12/23 0:00:00">
+          <isNotEqual property="where.BakupTime" compareValue="1234/12/24 0:00:00">
+            <![CDATA[bakup_time = #where.BakupTime#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.ForeignNo" prepend="AND">
+          <isEqual property="where.ForeignNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[foreign_no IS NULL]]>
+          </isEqual>
+          <isEqual property="where.ForeignNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[foreign_no IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.ForeignNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.ForeignNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[foreign_no = #where.ForeignNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.SeqIndex" prepend="AND">
+          <isEqual property="where.SeqIndex" compareValue="-1147483648">
+            <![CDATA[seq_index IS NULL]]>
+          </isEqual>
+          <isEqual property="where.SeqIndex" compareValue="-1147483647">
+            <![CDATA[seq_index IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.SeqIndex" compareValue="-1147483648">
+          <isNotEqual property="where.SeqIndex" compareValue="-1147483647">
+            <![CDATA[seq_index = #where.SeqIndex#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.Remark" prepend="AND">
+          <isEqual property="where.Remark" compareValue="STRING_NULL_VALUE">
+            <![CDATA[remark IS NULL]]>
+          </isEqual>
+          <isEqual property="where.Remark" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[remark IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.Remark" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.Remark" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[remark = #where.Remark#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.DeleteFlag" prepend="AND">
+          <isEqual property="where.DeleteFlag" compareValue="-1147483648">
+            <![CDATA[delete_flag IS NULL]]>
+          </isEqual>
+          <isEqual property="where.DeleteFlag" compareValue="-1147483647">
+            <![CDATA[delete_flag IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.DeleteFlag" compareValue="-1147483648">
+          <isNotEqual property="where.DeleteFlag" compareValue="-1147483647">
+            <![CDATA[delete_flag = #where.DeleteFlag#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.BackupFlag" prepend="AND">
+          <isEqual property="where.BackupFlag" compareValue="-1147483648">
+            <![CDATA[backup_flag IS NULL]]>
+          </isEqual>
+          <isEqual property="where.BackupFlag" compareValue="-1147483647">
+            <![CDATA[backup_flag IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.BackupFlag" compareValue="-1147483648">
+          <isNotEqual property="where.BackupFlag" compareValue="-1147483647">
+            <![CDATA[backup_flag = #where.BackupFlag#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.BackupTime" prepend="AND">
+          <isEqual property="where.BackupTime" compareValue="1234/12/23 0:00:00">
+            <![CDATA[backup_time IS NULL]]>
+          </isEqual>
+          <isEqual property="where.BackupTime" compareValue="1234/12/24 0:00:00">
+            <![CDATA[backup_time IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.BackupTime" compareValue="1234/12/23 0:00:00">
+          <isNotEqual property="where.BackupTime" compareValue="1234/12/24 0:00:00">
+            <![CDATA[backup_time = #where.BackupTime#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+      </dynamic>
+    </sql>
+    <!--排序条件-->
+    <sql id="includeOrderString">
+      <isNotNull property="OrderString" prepend=" ">
+        ORDER BY $OrderString$
+      </isNotNull>
+    </sql>
+    <!--添加数据-->
+   <sql id="includeInsert">
+      <![CDATA[INSERT INTO SSP_USER_ACTION]]>
+       <dynamic prepend="(">
+        <isNotNull property="ObjId" prepend=",">objid</isNotNull>
+        <isNotNull property="UserId" prepend=",">user_id</isNotNull>
+        <isNotNull property="ActionId" prepend=",">action_id</isNotNull>
+        <isNotNull property="RecordUserId" prepend=",">record_user_id</isNotNull>
+        <isNotNull property="RecordTime" prepend=",">record_time</isNotNull>
+        <isNotNull property="BakupFlag" prepend=",">bakup_flag</isNotNull>
+        <isNotNull property="BakupTime" prepend=",">bakup_time</isNotNull>
+        <isNotNull property="ForeignNo" prepend=",">foreign_no</isNotNull>
+        <isNotNull property="SeqIndex" prepend=",">seq_index</isNotNull>
+        <isNotNull property="Remark" prepend=",">remark</isNotNull>
+        <isNotNull property="DeleteFlag" prepend=",">delete_flag</isNotNull>
+        <isNotNull property="BackupFlag" prepend=",">backup_flag</isNotNull>
+        <isNotNull property="BackupTime" prepend=",">backup_time</isNotNull>
+       </dynamic>
+       <dynamic prepend=") VALUES (">
+        <isNotNull property="ObjId" prepend=",">#ObjId#</isNotNull>
+        <isNotNull property="UserId" prepend=",">#UserId#</isNotNull>
+        <isNotNull property="ActionId" prepend=",">#ActionId#</isNotNull>
+        <isNotNull property="RecordUserId" prepend=",">#RecordUserId#</isNotNull>
+        <isNotNull property="RecordTime" prepend=",">#RecordTime#</isNotNull>
+        <isNotNull property="BakupFlag" prepend=",">#BakupFlag#</isNotNull>
+        <isNotNull property="BakupTime" prepend=",">#BakupTime#</isNotNull>
+        <isNotNull property="ForeignNo" prepend=",">#ForeignNo#</isNotNull>
+        <isNotNull property="SeqIndex" prepend=",">#SeqIndex#</isNotNull>
+        <isNotNull property="Remark" prepend=",">#Remark#</isNotNull>
+        <isNotNull property="DeleteFlag" prepend=",">#DeleteFlag#</isNotNull>
+        <isNotNull property="BackupFlag" prepend=",">#BackupFlag#</isNotNull>
+        <isNotNull property="BackupTime" prepend=",">#BackupTime#</isNotNull>
+       </dynamic>
+       <![CDATA[)]]>
+    </sql>
+    <!--修改数据-->
+    <sql id="includeUpdate">
+      <![CDATA[UPDATE SSP_USER_ACTION]]>
+       <dynamic prepend="SET">
+        <isNotNull property="update.UserId" prepend=",">
+          <isEqual property="update.UserId" compareValue="-1147483648">
+            <![CDATA[user_id = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.UserId" compareValue="-1147483648">
+          <![CDATA[user_id = #update.UserId#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.ActionId" prepend=",">
+          <isEqual property="update.ActionId" compareValue="-1147483648">
+            <![CDATA[action_id = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.ActionId" compareValue="-1147483648">
+          <![CDATA[action_id = #update.ActionId#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.RecordUserId" prepend=",">
+          <isEqual property="update.RecordUserId" compareValue="-1147483648">
+            <![CDATA[record_user_id = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.RecordUserId" compareValue="-1147483648">
+          <![CDATA[record_user_id = #update.RecordUserId#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.RecordTime" prepend=",">
+          <isEqual property="update.RecordTime" compareValue="1234/12/23 0:00:00">
+            <![CDATA[record_time = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.RecordTime" compareValue="1234/12/23 0:00:00">
+          <![CDATA[record_time = #update.RecordTime#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.BakupFlag" prepend=",">
+          <isEqual property="update.BakupFlag" compareValue="-1147483648">
+            <![CDATA[bakup_flag = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.BakupFlag" compareValue="-1147483648">
+          <![CDATA[bakup_flag = #update.BakupFlag#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.BakupTime" prepend=",">
+          <isEqual property="update.BakupTime" compareValue="1234/12/23 0:00:00">
+            <![CDATA[bakup_time = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.BakupTime" compareValue="1234/12/23 0:00:00">
+          <![CDATA[bakup_time = #update.BakupTime#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.ForeignNo" prepend=",">
+          <isEqual property="update.ForeignNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[foreign_no = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.ForeignNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[foreign_no = #update.ForeignNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.SeqIndex" prepend=",">
+          <isEqual property="update.SeqIndex" compareValue="-1147483648">
+            <![CDATA[seq_index = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.SeqIndex" compareValue="-1147483648">
+          <![CDATA[seq_index = #update.SeqIndex#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.Remark" prepend=",">
+          <isEqual property="update.Remark" compareValue="STRING_NULL_VALUE">
+            <![CDATA[remark = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.Remark" compareValue="STRING_NULL_VALUE">
+          <![CDATA[remark = #update.Remark#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.DeleteFlag" prepend=",">
+          <isEqual property="update.DeleteFlag" compareValue="-1147483648">
+            <![CDATA[delete_flag = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.DeleteFlag" compareValue="-1147483648">
+          <![CDATA[delete_flag = #update.DeleteFlag#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.BackupFlag" prepend=",">
+          <isEqual property="update.BackupFlag" compareValue="-1147483648">
+            <![CDATA[backup_flag = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.BackupFlag" compareValue="-1147483648">
+          <![CDATA[backup_flag = #update.BackupFlag#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.BackupTime" prepend=",">
+          <isEqual property="update.BackupTime" compareValue="1234/12/23 0:00:00">
+            <![CDATA[backup_time = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.BackupTime" compareValue="1234/12/23 0:00:00">
+          <![CDATA[backup_time = #update.BackupTime#]]>
+          </isNotEqual>
+        </isNotNull>
+      </dynamic>
+    </sql>
+    <!--删除数据-->
+    <sql id="includeDelete">
+      <![CDATA[DELETE FROM SSP_USER_ACTION]]>
+    </sql>
+
+	
+    <!--增删改查配置信息-->
+    <!--指定条件的查询-->
+    <select id="GetEntityList" parameterClass="map" resultMap="R_SspUserAction">
+      <include refid="includeSelect"/>
+      <include refid="includeWhere"/>
+      <include refid="includeOrderString"/>
+    </select>
+    <!--指定条件的查询-->
+    <select id="GetEntityTable" parameterClass="map" resultClass="row">
+      <include refid="includeSelect"/>
+      <include refid="includeWhere"/>
+      <include refid="includeOrderString"/>
+    </select>
+    <!--获取某个属性（数据列）的最大值-->
+    <select id="GetColumnMaxValue" parameterClass="map" resultClass="map">
+      <![CDATA[SELECT]]>
+      <isPropertyAvailable property="ColumnName" prepend=" ">
+      <![CDATA[MAX($ColumnName$)]]>
+      </isPropertyAvailable>
+      <![CDATA[FROM SSP_USER_ACTION]]>
+      <include refid="includeWhere"/>
+    </select>
+    <!--获取数据条数-->
+    <select id="GetRowCount" parameterClass="map" resultClass="int">
+      <![CDATA[SELECT COUNT(*) FROM SSP_USER_ACTION]]>
+      <include refid="includeWhere"/>
+    </select>
+    <!--添加新记录-->
+    <statement id="Insert" parameterMap="P_SspUserAction" resultClass="int">
+      <include refid="includeInsert"/>
+    </statement>
+    <!--更新记录-->
+    <update id="Update" parameterClass="map">
+      <include refid="includeUpdate"/>
+      <include refid="includeWhere"/>
+    </update>
+    <!--删除对象对应的记录-->
+    <delete id="Delete" parameterClass="map">
+      <include refid="includeDelete"/>
+      <include refid="includeWhere"/>
+    </delete>
+  </statements>
+</sqlMap>

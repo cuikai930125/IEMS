@@ -1,0 +1,16 @@
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\IEMS.JHWMS.DbCI.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\IEMS.JHWMS.DbCI.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\IEMS.JHWMS.DbMapper.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\IEMS.JHWMS.DbRI.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\IEMS.JHWMS.Entity.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\IEMS.JHWMS.VoDto.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\MSTL.DbAccess.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\MSTL.Extensions.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\MSTL.LogAgent.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\IEMS.JHWMS.DbMapper.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\IEMS.JHWMS.DbRI.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\IEMS.JHWMS.Entity.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\bin\Release\IEMS.JHWMS.VoDto.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\obj\Release\IEMS.JHWMS.DbCI.csprojResolveAssemblyReference.cache
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\obj\Release\IEMS.JHWMS.DbCI.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbCI\obj\Release\IEMS.JHWMS.DbCI.pdb

@@ -1,0 +1,113 @@
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.dll
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.pdb
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.dll
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.DbAccess.dll
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.LogAgent.dll
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.pdb
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csprojResolveAssemblyReference.cache
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
+D:\项目管理\际华3517\Web\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.dll
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.pdb
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.dll
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.DbAccess.dll
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.LogAgent.dll
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.pdb
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csprojResolveAssemblyReference.cache
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
+D:\项目管理\际华3517\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.dll
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.pdb
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.dll
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.DbAccess.dll
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.LogAgent.dll
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.pdb
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csprojResolveAssemblyReference.cache
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
+D:\项目管理\际华3517\JHSVN\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.DbAccess.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.LogAgent.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csprojResolveAssemblyReference.cache
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.dll
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.pdb
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.dll
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.DbAccess.dll
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.LogAgent.dll
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.pdb
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csprojResolveAssemblyReference.cache
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CoreCompileInputs.cache
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CopyComplete
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
+D:\我的桌面\WMS-SQL\IEMS.JHWMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.dll
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.pdb
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.dll
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.DbAccess.dll
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.LogAgent.dll
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.pdb
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csprojResolveAssemblyReference.cache
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CoreCompileInputs.cache
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CopyComplete
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
+D:\我的桌面\WMS-SQL\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.dll
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.pdb
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.dll
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.DbAccess.dll
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.LogAgent.dll
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.pdb
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csprojResolveAssemblyReference.cache
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CoreCompileInputs.cache
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CopyComplete
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
+D:\我的桌面\SqlServer版本WMS纯净版\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.dll
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.pdb
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.dll
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.DbAccess.dll
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.LogAgent.dll
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.pdb
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csprojResolveAssemblyReference.cache
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CoreCompileInputs.cache
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CopyComplete
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
+D:\我的桌面\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.dll
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.pdb
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.dll
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.DbAccess.dll
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.LogAgent.dll
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.pdb
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csprojAssemblyReference.cache
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CoreCompileInputs.cache
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CopyComplete
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
+D:\01项目相关\05华鼎国联项目\01产品代码\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb
+E:\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.dll
+E:\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.pdb
+E:\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.dll
+E:\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.DbAccess.dll
+E:\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.LogAgent.dll
+E:\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.pdb
+E:\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csprojAssemblyReference.cache
+E:\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CoreCompileInputs.cache
+E:\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CopyComplete
+E:\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
+E:\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb
+E:\00 MESNAC\WMS\HDGLPKwms\IEMS.WMS_PK\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.dll
+E:\00 MESNAC\WMS\HDGLPKwms\IEMS.WMS_PK\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.pdb
+E:\00 MESNAC\WMS\HDGLPKwms\IEMS.WMS_PK\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.dll
+E:\00 MESNAC\WMS\HDGLPKwms\IEMS.WMS_PK\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.DbAccess.dll
+E:\00 MESNAC\WMS\HDGLPKwms\IEMS.WMS_PK\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.LogAgent.dll
+E:\00 MESNAC\WMS\HDGLPKwms\IEMS.WMS_PK\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.pdb
+E:\00 MESNAC\WMS\HDGLPKwms\IEMS.WMS_PK\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csprojAssemblyReference.cache
+E:\00 MESNAC\WMS\HDGLPKwms\IEMS.WMS_PK\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CoreCompileInputs.cache
+E:\00 MESNAC\WMS\HDGLPKwms\IEMS.WMS_PK\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CopyComplete
+E:\00 MESNAC\WMS\HDGLPKwms\IEMS.WMS_PK\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
+E:\00 MESNAC\WMS\HDGLPKwms\IEMS.WMS_PK\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb

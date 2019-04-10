@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<UiConfig>
+  <Captions>
+    <Caption Name="lineID" Value="lineID" ></Caption>
+    <Caption Name="AreaID" Value="AreaID" ></Caption>
+    <Caption Name="lineCode" Value="lineCode" ></Caption>
+    <Caption Name="lineName" Value="lineName" ></Caption>
+    <Caption Name="materialLimit" Value="materialLimit" ></Caption>
+    <Caption Name="lockFlag" Value="lockFlag" ></Caption>
+    <Caption Name="recorderID" Value="recorderID" ></Caption>
+    <Caption Name="recordTime" Value="recordTime" ></Caption>
+    <Caption Name="deleteFlag" Value="deleteFlag" ></Caption>
+  </Captions>
+  <WebPage Title="TB_SR_Line">
+  </WebPage>
+  <Select>
+    <ParamPanel>
+      <ParamFields>
+        <ParamField FieldName="lineID"></ParamField>
+      </ParamFields>
+    </ParamPanel>
+    <MainGrid>
+      <GridColumns>
+        <GridColumn ColumnName="lineID" ></GridColumn>
+        <GridColumn ColumnName="AreaID" ></GridColumn>
+        <GridColumn ColumnName="lineCode" ></GridColumn>
+        <GridColumn ColumnName="lineName" ></GridColumn>
+        <GridColumn ColumnName="materialLimit" ></GridColumn>
+        <GridColumn ColumnName="lockFlag" ></GridColumn>
+        <GridColumn ColumnName="recorderID" ></GridColumn>
+        <GridColumn ColumnName="recordTime" ></GridColumn>
+        <GridColumn ColumnName="deleteFlag" ></GridColumn>
+      </GridColumns>
+    </MainGrid>
+    <MainDetail>
+      <ParamFields>
+        <ParamField FieldName="lineID" ></ParamField>
+        <ParamField FieldName="AreaID" ></ParamField>
+        <ParamField FieldName="lineCode" ></ParamField>
+        <ParamField FieldName="lineName" ></ParamField>
+        <ParamField FieldName="materialLimit" ></ParamField>
+        <ParamField FieldName="lockFlag" ></ParamField>
+        <ParamField FieldName="recorderID" ></ParamField>
+        <ParamField FieldName="recordTime" ></ParamField>
+        <ParamField FieldName="deleteFlag" ></ParamField>
+      </ParamFields>
+    </MainDetail>
+  </Select>
+</UiConfig>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UiConfig>
+  <Captions>
+    <Caption Name="ID"              Value="主键ID" ></Caption>
+    <Caption Name="JOBNO"           Value="作业编号" ></Caption>
+    <Caption Name="JOBNAME"         Value="作业名称" ></Caption>
+    <Caption Name="INTERVAL"        Value="循环间隔" ></Caption>
+    <Caption Name="JOBSTATUS"       Value="作业状态" ></Caption>
+    <Caption Name="EXCUTERESULT"    Value="执行结果" ></Caption>
+    <Caption Name="USEDFLAG"        Value="状态标记" ></Caption>
+    <Caption Name="LASTEXCUTETIME"  Value="本次执行时长" ></Caption>
+    <Caption Name="MAXEXCUTETIME"   Value="最大执行时长" ></Caption>
+    <Caption Name="MINEXCUTETIME"   Value="最小执行时长" ></Caption>
+    <Caption Name="AVGEXCUTETIME"   Value="平均执行时长" ></Caption>
+    <Caption Name="TOTALEXCUTETIME" Value="执行总时长" ></Caption>
+    <Caption Name="EXCUTECOUNT"     Value="执行次数" ></Caption>
+    <Caption Name="SPNAME"          Value="调用业务名称" ></Caption>
+  </Captions>
+  <WebPage Title="作业执行监控">
+  </WebPage>
+  <Select>
+    <MainGrid PageSize ="50">
+      <GridColumns>
+        <GridColumn ColumnName="ID"              WIDTH="120" IsShow="False"></GridColumn>
+        <GridColumn ColumnName="JOBNO"           WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="JOBNAME"         WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="INTERVAL"        WIDTH="80"></GridColumn>
+        <GridColumn ColumnName="JOBSTATUS"       WIDTH="80"></GridColumn>
+        <GridColumn ColumnName="EXCUTERESULT"    WIDTH="180"></GridColumn>
+        <GridColumn ColumnName="USEDFLAG"        WIDTH="80"></GridColumn>
+        <GridColumn ColumnName="LASTEXCUTETIME"  WIDTH="130"></GridColumn>
+        <GridColumn ColumnName="MAXEXCUTETIME"   WIDTH="130"></GridColumn>
+        <GridColumn ColumnName="MINEXCUTETIME"   WIDTH="130"></GridColumn>
+        <GridColumn ColumnName="AVGEXCUTETIME"   WIDTH="130"></GridColumn>
+        <GridColumn ColumnName="TOTALEXCUTETIME" WIDTH="130"></GridColumn>
+        <GridColumn ColumnName="EXCUTECOUNT"     WIDTH="80"></GridColumn>
+        <GridColumn ColumnName="SPNAME"          WIDTH="100" IsShow="False"></GridColumn>
+      </GridColumns>
+    </MainGrid>
+    <MainDetail>
+      <ParamFields>
+        <ParamField FieldName="JOBNO"           ></ParamField>
+        <ParamField FieldName="JOBNAME"         ></ParamField>
+        <ParamField FieldName="INTERVAL"        ></ParamField>
+        <ParamField FieldName="JOBSTATUS"       ></ParamField>
+        <ParamField FieldName="EXCUTERESULT"    ></ParamField>
+        <ParamField FieldName="USEDFLAG"        ></ParamField>
+        <ParamField FieldName="LASTEXCUTETIME"  ></ParamField>
+        <ParamField FieldName="MAXEXCUTETIME"   ></ParamField>
+        <ParamField FieldName="MINEXCUTETIME"   ></ParamField>
+        <ParamField FieldName="AVGEXCUTETIME"   ></ParamField>
+        <ParamField FieldName="TOTALEXCUTETIME" ></ParamField>
+        <ParamField FieldName="EXCUTECOUNT"     ></ParamField>
+      </ParamFields>
+    </MainDetail>
+  </Select>
+</UiConfig>

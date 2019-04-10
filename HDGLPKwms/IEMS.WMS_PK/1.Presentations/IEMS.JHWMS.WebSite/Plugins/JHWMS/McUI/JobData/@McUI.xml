@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<McUIConfig>
+  <McUI name="PsbJobStatus"   uri="@McUI\PsbJobStatus.xml"/>
+  <McUI name="TaskRequest"    uri="@McUI\TaskRequest.xml"/>
+  <McUI name="CmdRequest"     uri="@McUI\CmdRequest.xml"/>
+  <McUI name="CmdFinish"      uri="@McUI\CmdFinish.xml"/>
+</McUIConfig>

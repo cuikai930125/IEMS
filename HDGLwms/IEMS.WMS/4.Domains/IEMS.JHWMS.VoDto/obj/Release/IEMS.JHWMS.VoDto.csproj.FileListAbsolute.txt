@@ -1,0 +1,5 @@
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.VoDto\bin\Release\IEMS.JHWMS.VoDto.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.VoDto\bin\Release\IEMS.JHWMS.VoDto.pdb
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.VoDto\obj\Release\IEMS.JHWMS.VoDto.csprojResolveAssemblyReference.cache
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.VoDto\obj\Release\IEMS.JHWMS.VoDto.dll
+E:\工作区间\际华密炼\SVN20180410\01工程域\03实现\IEMS.JHWMS\4.Domains\IEMS.JHWMS.VoDto\obj\Release\IEMS.JHWMS.VoDto.pdb

@@ -1,0 +1,9 @@
+2018-11-19 18:05:39,521 [1] DEBUG ASP._global_asax [(null)] - Application_Start
+2018-11-19 18:05:39,689 [1] DEBUG IEMS.Frame.WebGlobal.PluginManager [(null)] - PRIVATE_BINPATH=bin;
+2018-11-19 18:05:39,703 [1] DEBUG ASP._global_asax [(null)] - SetPRIVATE_BINPATH
+2018-11-19 18:05:39,709 [1] DEBUG ASP._global_asax [(null)] - new Routes().Registe();
+2018-11-19 18:05:41,000 [9] DEBUG MSTL.DbAccess.DbVersion [(null)] - DbMapper：Frame>>Default
+2018-11-19 18:05:41,019 [9] DEBUG MSTL.DbAccess.DbVersion [(null)] - DbMapper：Main>>Default
+2018-11-19 18:05:41,026 [9] DEBUG MSTL.DbAccess.DbVersion [(null)] - DbMapper：JHWMS>>Default
+2018-11-19 18:05:41,071 [9] ERROR IEMS.Frame.DbRI.SspPageMenuService [(null)] - 获取SQL语句出现异常:未将对象引用设置到对象的实例。
+2018-11-19 18:05:41,091 [9] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - 

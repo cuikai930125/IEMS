@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UiConfig>
+  <Captions>
+    <Caption Name="MATER_NO"   Value="物料编码" ></Caption>
+    <Caption Name="MATER_NAME" Value="物料名称" ></Caption>
+    <Caption Name="MATER_CODE" Value="物料编号展示" ></Caption>
+    <Caption Name="MAIN_UNIT" Value="计量单位" ></Caption>
+    <Caption Name="MIN_TIME"   Value="最短时间(小时)" ></Caption>
+    <Caption Name="MAX_TIME"   Value="最长时间(小时)" ></Caption>
+    <Caption Name="MATER_SPEC"  Value="物料规格" ></Caption>
+    <Caption Name="MATER_DESC" Value="物料描述" ></Caption>
+    <Caption Name="CREATION_TIME" Value="创建时间" ></Caption>
+    <Caption Name="MATER_MKIND"  Value="大类编号" ></Caption>
+    <Caption Name="MKIND_NAME" Value="大类名称" ></Caption>
+    <Caption Name="MATER_IKIND" Value="小类编号" ></Caption>
+    <Caption Name="IKIND_NAME" Value="小类名称" ></Caption>
+  </Captions>
+  <WebPage Title="物料信息维护">
+  </WebPage>
+  <Crud TableName="PSB_MATERIAL">
+    <PrimaryKey FieldName="MATER_NO" Identity="true"></PrimaryKey>
+  </Crud>
+  <Insert UserField="RECORD_USER_ID" TimeField="RECORD_TIME">
+    <ParamPanel>
+      <ParamFields>
+        <ParamField FieldName="MATER_NO"   ></ParamField>
+        <ParamField FieldName="MATER_NAME" Nullable="true"></ParamField>
+        <ParamField FieldName="MKIND_NAME" Nullable="true"></ParamField>
+        <ParamField FieldName="IKIND_NAME" Nullable="true"></ParamField>
+        <ParamField FieldName="MIN_TIME"   Nullable="true"></ParamField>
+        <ParamField FieldName="MAX_TIME"   Nullable="true"></ParamField>
+        <ParamField FieldName="MAIN_UNIT"  Nullable="true"></ParamField>
+        <ParamField FieldName="MATER_SPEC" Nullable="true"></ParamField>
+        <ParamField FieldName="MATER_DESC" Nullable="true"></ParamField>
+      </ParamFields>
+    </ParamPanel>
+  </Insert>
+  <Update>
+    <ParamPanel>
+      <ParamFields>
+        <ParamField FieldName="MATER_NAME" Nullable="true"></ParamField>
+        <ParamField FieldName="MKIND_NAME" Nullable="true"></ParamField>
+        <ParamField FieldName="IKIND_NAME" Nullable="true"></ParamField>
+        <ParamField FieldName="MIN_TIME"   Nullable="true"></ParamField>
+        <ParamField FieldName="MAX_TIME"   Nullable="true"></ParamField>
+        <ParamField FieldName="MAIN_UNIT"  Nullable="true"></ParamField>
+        <ParamField FieldName="MATER_SPEC" Nullable="true"></ParamField>
+        <ParamField FieldName="MATER_DESC" Nullable="true"></ParamField>
+      </ParamFields>
+    </ParamPanel>
+  </Update>
+  
+  <Select>
+    <ParamPanel>
+      <ParamFields>
+        <ParamField FieldName="MATER_NO" WIDTH="120"></ParamField>
+      </ParamFields>
+    </ParamPanel>
+    <MainGrid PageSize ="50">
+      <GridColumns>
+        <GridColumn ColumnName="MATER_NO"   WIDTH="120"></GridColumn>
+        <GridColumn ColumnName="MATER_NAME" WIDTH="120"></GridColumn>
+        <GridColumn ColumnName="MATER_CODE" WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="MAIN_UNIT" WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="MIN_TIME"   WIDTH="160"></GridColumn>
+        <GridColumn ColumnName="MAX_TIME"   WIDTH="160"></GridColumn>
+        <GridColumn ColumnName="MATER_SPEC"  WIDTH="60"></GridColumn>
+        <GridColumn ColumnName="MATER_DESC" WIDTH="160"></GridColumn>
+        <GridColumn ColumnName="CREATION_TIME" WIDTH="160"></GridColumn>
+        <GridColumn ColumnName="MATER_MKIND"   WIDTH="60"></GridColumn>
+        <GridColumn ColumnName="MKIND_NAME"  WIDTH="60"></GridColumn>
+        <GridColumn ColumnName="MATER_IKIND" WIDTH="60"></GridColumn>
+        <GridColumn ColumnName="IKIND_NAME" WIDTH="60"></GridColumn>
+      </GridColumns>
+    </MainGrid>
+    <MainDetail>
+      <ParamFields>
+        <ParamField FieldName="MATER_NO"   ></ParamField>
+        <ParamField FieldName="MATER_NAME" ></ParamField>
+        <ParamField FieldName="MKIND_NAME" ></ParamField>
+        <ParamField FieldName="IKIND_NAME" ></ParamField>
+        <ParamField FieldName="MIN_TIME"   ></ParamField>
+        <ParamField FieldName="MAX_TIME"   ></ParamField>
+        <ParamField FieldName="MAIN_UNIT"  ></ParamField>
+        <ParamField FieldName="MATER_SPEC" ></ParamField>
+        <ParamField FieldName="MATER_DESC" ></ParamField>
+      </ParamFields>
+    </MainDetail>
+  </Select>
+</UiConfig>

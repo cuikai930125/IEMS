@@ -1,0 +1,1086 @@
+2019-03-08 10:53:32,862 [1] DEBUG ASP._global_asax [(null)] - Application_Start
+2019-03-08 10:53:32,913 [1] DEBUG IEMS.Frame.WebGlobal.PluginManager [(null)] - PRIVATE_BINPATH=bin;
+2019-03-08 10:53:32,918 [1] DEBUG ASP._global_asax [(null)] - SetPRIVATE_BINPATH
+2019-03-08 10:53:32,927 [1] DEBUG ASP._global_asax [(null)] - new Routes().Registe();
+2019-03-08 10:53:33,156 [10] DEBUG MSTL.DbAccess.DbVersion [(null)] - DbMapper：Frame>>Default
+2019-03-08 10:53:33,160 [10] DEBUG MSTL.DbAccess.DbVersion [(null)] - DbMapper：Main>>Default
+2019-03-08 10:53:33,165 [10] DEBUG MSTL.DbAccess.DbVersion [(null)] - DbMapper：JHWMS>>Default
+2019-03-08 10:53:33,204 [10] ERROR IEMS.Frame.DbRI.SspPageMenuService [(null)] - 获取SQL语句出现异常:未将对象引用设置到对象的实例。
+2019-03-08 10:53:33,209 [10] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - 
+2019-03-08 10:53:34,809 [10] ERROR IEMS.Frame.DbRI.SspPageMenuService [(null)] - 获取SQL语句出现异常:未将对象引用设置到对象的实例。
+2019-03-08 10:53:34,816 [10] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - 
+2019-03-08 10:53:34,879 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Global.asax
+2019-03-08 10:53:34,885 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Index.htm
+2019-03-08 10:53:34,891 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Logout.htm
+2019-03-08 10:53:34,897 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： NoPermit.aspx
+2019-03-08 10:53:34,901 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Web.config
+2019-03-08 10:53:34,906 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Web.Debug.config
+2019-03-08 10:53:34,911 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： website.publishproj
+2019-03-08 10:53:34,916 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.WebSite.Publish.pubxml
+2019-03-08 10:53:34,921 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.WebSite.Publish.pubxml
+2019-03-08 10:53:34,927 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： vssver2.scc
+2019-03-08 10:53:34,932 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Castle.Core.dll
+2019-03-08 10:53:34,937 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Castle.DynamicProxy2.dll
+2019-03-08 10:53:34,943 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： DaoConfig.xsd
+2019-03-08 10:53:34,948 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Ext.Net.dll
+2019-03-08 10:53:34,954 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Ext.Net.Utilities.dll
+2019-03-08 10:53:34,960 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ICSharpCode.SharpZipLib.dll
+2019-03-08 10:53:34,967 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Frame.AppBiz.dll
+2019-03-08 10:53:34,971 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Frame.AppBiz.dll
+2019-03-08 10:53:34,975 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Frame.DbCI.dll
+2019-03-08 10:53:34,982 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Frame.DbCI.dll
+2019-03-08 10:53:34,988 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Frame.DbMapper.dll
+2019-03-08 10:53:34,993 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Frame.DbMapper.dll
+2019-03-08 10:53:34,997 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is End： IEMS.Frame.DbMapper.dll
+2019-03-08 10:53:35,003 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Mapper File：IEMS.Frame.DbMapper.dll
+2019-03-08 10:53:35,007 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Frame.DbRI.dll
+2019-03-08 10:53:35,014 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Frame.DbRI.dll
+2019-03-08 10:53:35,019 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is End： IEMS.Frame.DbRI.dll
+2019-03-08 10:53:35,023 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Mapper File：IEMS.Frame.DbRI.dll
+2019-03-08 10:53:35,028 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Frame.Entity.dll
+2019-03-08 10:53:35,034 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Frame.Entity.dll
+2019-03-08 10:53:35,038 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Frame.McUI.dll
+2019-03-08 10:53:35,043 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Frame.McUI.dll
+2019-03-08 10:53:35,049 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Frame.VoDto.dll
+2019-03-08 10:53:35,054 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Frame.VoDto.dll
+2019-03-08 10:53:35,061 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Frame.WebGlobal.dll
+2019-03-08 10:53:35,067 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Frame.WebGlobal.dll
+2019-03-08 10:53:35,071 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Frame.WebSite.dll
+2019-03-08 10:53:35,077 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Frame.WebSite.dll
+2019-03-08 10:53:35,083 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Frame.WebUI.dll
+2019-03-08 10:53:35,088 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Frame.WebUI.dll
+2019-03-08 10:53:35,092 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.AppBiz.dll
+2019-03-08 10:53:35,097 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.AppBiz.dll
+2019-03-08 10:53:35,102 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.AppBiz.pdb
+2019-03-08 10:53:35,106 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.AppBiz.pdb
+2019-03-08 10:53:35,122 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.DbCI.dll
+2019-03-08 10:53:35,128 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.DbCI.dll
+2019-03-08 10:53:35,134 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.DbCI.pdb
+2019-03-08 10:53:35,139 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.DbCI.pdb
+2019-03-08 10:53:35,143 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.DbMapper.dll
+2019-03-08 10:53:35,148 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.DbMapper.dll
+2019-03-08 10:53:35,152 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is End： IEMS.JHWMS.DbMapper.dll
+2019-03-08 10:53:35,157 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Mapper File：IEMS.JHWMS.DbMapper.dll
+2019-03-08 10:53:35,161 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.DbMapper.pdb
+2019-03-08 10:53:35,165 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.DbMapper.pdb
+2019-03-08 10:53:35,170 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.DbRI.dll
+2019-03-08 10:53:35,174 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.DbRI.dll
+2019-03-08 10:53:35,178 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is End： IEMS.JHWMS.DbRI.dll
+2019-03-08 10:53:35,182 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Mapper File：IEMS.JHWMS.DbRI.dll
+2019-03-08 10:53:35,187 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.DbRI.pdb
+2019-03-08 10:53:35,191 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.DbRI.pdb
+2019-03-08 10:53:35,196 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.Entity.dll
+2019-03-08 10:53:35,200 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.Entity.dll
+2019-03-08 10:53:35,205 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.Entity.pdb
+2019-03-08 10:53:35,209 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.Entity.pdb
+2019-03-08 10:53:35,214 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.VoDto.dll
+2019-03-08 10:53:35,219 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.VoDto.dll
+2019-03-08 10:53:35,223 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.VoDto.pdb
+2019-03-08 10:53:35,228 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.VoDto.pdb
+2019-03-08 10:53:35,233 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.WebUI.dll
+2019-03-08 10:53:35,237 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.WebUI.dll
+2019-03-08 10:53:35,240 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.JHWMS.WebUI.pdb
+2019-03-08 10:53:35,245 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.JHWMS.WebUI.pdb
+2019-03-08 10:53:35,251 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Main.AppBiz.dll
+2019-03-08 10:53:35,256 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Main.AppBiz.dll
+2019-03-08 10:53:35,260 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Main.DbCI.dll
+2019-03-08 10:53:35,265 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Main.DbCI.dll
+2019-03-08 10:53:35,270 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Main.DbMapper.dll
+2019-03-08 10:53:35,275 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Main.DbMapper.dll
+2019-03-08 10:53:35,280 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is End： IEMS.Main.DbMapper.dll
+2019-03-08 10:53:35,285 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Mapper File：IEMS.Main.DbMapper.dll
+2019-03-08 10:53:35,290 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Main.DbRI.dll
+2019-03-08 10:53:35,294 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Main.DbRI.dll
+2019-03-08 10:53:35,300 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is End： IEMS.Main.DbRI.dll
+2019-03-08 10:53:35,304 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Mapper File：IEMS.Main.DbRI.dll
+2019-03-08 10:53:35,309 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Main.Entity.dll
+2019-03-08 10:53:35,314 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Main.Entity.dll
+2019-03-08 10:53:35,318 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Main.VoDto.dll
+2019-03-08 10:53:35,322 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Main.VoDto.dll
+2019-03-08 10:53:35,327 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Main.WebSite.dll
+2019-03-08 10:53:35,332 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Main.WebSite.dll
+2019-03-08 10:53:35,336 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： IEMS.Main.WebUI.dll
+2019-03-08 10:53:35,339 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File Is Start： IEMS.Main.WebUI.dll
+2019-03-08 10:53:35,343 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： MSTL.DbAccess.dll
+2019-03-08 10:53:35,347 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： MSTL.ExcelData.dll
+2019-03-08 10:53:35,352 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： MSTL.Extensions.dll
+2019-03-08 10:53:35,356 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： MSTL.LogAgent.dll
+2019-03-08 10:53:35,360 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： MSTL.McJson.dll
+2019-03-08 10:53:35,364 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： MSTL.ResultStruct.dll
+2019-03-08 10:53:35,368 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： MSTL.XmlOrm.dll
+2019-03-08 10:53:35,371 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： MyBatis.Common.dll
+2019-03-08 10:53:35,376 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： MyBatis.DataMapper.dll
+2019-03-08 10:53:35,381 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Newtonsoft.Json.dll
+2019-03-08 10:53:35,385 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： NPOI.dll
+2019-03-08 10:53:35,390 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： NPOI.OOXML.dll
+2019-03-08 10:53:35,395 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： NPOI.OpenXml4Net.dll
+2019-03-08 10:53:35,399 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： NPOI.OpenXmlFormats.dll
+2019-03-08 10:53:35,403 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SqlMap.xsd
+2019-03-08 10:53:35,408 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SqlMapConfig.xsd
+2019-03-08 10:53:35,414 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Transformer.NET.dll
+2019-03-08 10:53:35,419 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Authentication.xml
+2019-03-08 10:53:35,425 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： dbVersion.config
+2019-03-08 10:53:35,429 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： providers.config
+2019-03-08 10:53:35,434 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SqlMap.01.config
+2019-03-08 10:53:35,439 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： vssver2.scc
+2019-03-08 10:53:35,465 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20180904.txt
+2019-03-08 10:53:35,483 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20180905.txt
+2019-03-08 10:53:35,487 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20180917.txt
+2019-03-08 10:53:35,491 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20180918.txt
+2019-03-08 10:53:35,495 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20180926.txt
+2019-03-08 10:53:35,501 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20180927.txt
+2019-03-08 10:53:35,505 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20180928.txt
+2019-03-08 10:53:35,509 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20180929.txt
+2019-03-08 10:53:35,531 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20181016.txt
+2019-03-08 10:53:35,535 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20181018.txt
+2019-03-08 10:53:35,540 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20181029.txt
+2019-03-08 10:53:35,552 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20181106.txt
+2019-03-08 10:53:35,557 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20181107.txt
+2019-03-08 10:53:35,562 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20181119.txt
+2019-03-08 10:53:35,566 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20181120.txt
+2019-03-08 10:53:35,571 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20190306.txt
+2019-03-08 10:53:35,575 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： 20190308.txt
+2019-03-08 10:53:35,581 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： log4net.config
+2019-03-08 10:53:35,585 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： log4net.dll
+2019-03-08 10:53:35,589 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： vssver2.scc
+2019-03-08 10:53:35,593 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Crud.aspx
+2019-03-08 10:53:35,597 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Monitor.aspx
+2019-03-08 10:53:35,601 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Report.aspx
+2019-03-08 10:53:35,606 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ReportBill.aspx
+2019-03-08 10:53:35,610 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBox.aspx
+2019-03-08 10:53:35,616 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： vssver2.scc
+2019-03-08 10:53:35,621 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： BillTaskCmdConnect.aspx
+2019-03-08 10:53:35,626 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： BillTaskCmdConnect.aspx.cs
+2019-03-08 10:53:35,639 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： AddBillOutput.aspx
+2019-03-08 10:53:35,644 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： AddBillOutput.aspx.cs
+2019-03-08 10:53:35,648 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： AddModifyBillOutput.js
+2019-03-08 10:53:35,652 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ModifyBillOutput.aspx
+2019-03-08 10:53:35,656 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ModifyBillOutput.aspx.cs
+2019-03-08 10:53:35,660 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBillOutput.aspx
+2019-03-08 10:53:35,665 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBillOutput.aspx.cs
+2019-03-08 10:53:35,669 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： TriggerFieldSearchLocData.js
+2019-03-08 10:53:35,674 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： TriggerFieldSearchMaterial.js
+2019-03-08 10:53:35,694 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： BinDelete.aspx
+2019-03-08 10:53:35,698 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： BinDelete.aspx.cs
+2019-03-08 10:53:35,703 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： BinStatusManager.aspx
+2019-03-08 10:53:35,706 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： BinStatusManager.aspx.cs
+2019-03-08 10:53:35,711 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ErrorBinManager.aspx
+2019-03-08 10:53:35,715 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ErrorBinManager.aspx.cs
+2019-03-08 10:53:35,719 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ProductStatistics.aspx
+2019-03-08 10:53:35,723 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ProductStatistics.aspx.cs
+2019-03-08 10:53:35,728 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchErrOutLocData.js
+2019-03-08 10:53:35,732 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CrnEnable.aspx
+2019-03-08 10:53:35,737 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CrnEnable.aspx.cs
+2019-03-08 10:53:35,742 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： LocManger.aspx
+2019-03-08 10:53:35,746 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： LocManger.aspx.cs
+2019-03-08 10:53:35,770 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： @McUI.xml
+2019-03-08 10:53:35,782 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： PSBAREA.Mapper.xml
+2019-03-08 10:53:35,786 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： PsbArea.xml
+2019-03-08 10:53:35,791 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： PSBMATERIAL.Mapper.xml
+2019-03-08 10:53:35,796 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： PsbMaterial.xml
+2019-03-08 10:53:35,801 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： PsbPallet.Mapper.xml
+2019-03-08 10:53:35,806 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： PsbPallet.xml
+2019-03-08 10:53:35,812 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： PsbProduct.Mapper.xml
+2019-03-08 10:53:35,816 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： PsbProduct.xml
+2019-03-08 10:53:35,821 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： @McUI.xml
+2019-03-08 10:53:35,835 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： BinData.Mapper.xml
+2019-03-08 10:53:35,839 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： BinData.xml
+2019-03-08 10:53:35,843 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： BinStatistics.Mapper.xml
+2019-03-08 10:53:35,848 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： BinStatistics.xml
+2019-03-08 10:53:35,853 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： InOutBinHistory.Mapper.xml
+2019-03-08 10:53:35,857 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： InOutBinHistory.xml
+2019-03-08 10:53:35,863 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： @McUI.xml
+2019-03-08 10:53:35,869 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CrnErr.Mapper.xml
+2019-03-08 10:53:35,876 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CrnErr.xml
+2019-03-08 10:53:35,882 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CrnErrLog.Mapper.xml
+2019-03-08 10:53:35,895 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CrnErrLog.xml
+2019-03-08 10:53:35,900 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CrnStatusMonitor.Mapper.xml
+2019-03-08 10:53:35,906 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CrnStatusMonitor.xml
+2019-03-08 10:53:35,911 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： LocErrLog.Mapper.xml
+2019-03-08 10:53:35,915 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： LocErrLog.xml
+2019-03-08 10:53:35,919 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： @McUI.xml
+2019-03-08 10:53:35,925 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： @McUI.xml
+2019-03-08 10:53:35,943 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CmdFinish.Mapper.xml
+2019-03-08 10:53:35,947 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CmdFinish.xml
+2019-03-08 10:53:35,953 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CmdRequest.Mapper.xml
+2019-03-08 10:53:35,958 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CmdRequest.xml
+2019-03-08 10:53:35,962 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： PsbJobStatus.Mapper.xml
+2019-03-08 10:53:35,966 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： PsbJobStatus.xml
+2019-03-08 10:53:35,971 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： TaskRequest..Mapper.xml
+2019-03-08 10:53:35,976 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： TaskRequest.xml
+2019-03-08 10:53:35,981 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： @McUI.xml
+2019-03-08 10:53:36,004 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBinMaterial.Mapper.xml
+2019-03-08 10:53:36,009 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBinMaterial.xml
+2019-03-08 10:53:36,013 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchErrOutLocData.Mapper.xml
+2019-03-08 10:53:36,017 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchErrOutLocData.xml
+2019-03-08 10:53:36,022 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchInLocData.Mapper.xml
+2019-03-08 10:53:36,026 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchInLocData.xml
+2019-03-08 10:53:36,032 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchOutLocData.Mapper.xml
+2019-03-08 10:53:36,036 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchOutLocData.xml
+2019-03-08 10:53:36,040 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchPalletData.Mapper.xml
+2019-03-08 10:53:36,045 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchPalletData.xml
+2019-03-08 10:53:36,050 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： @McUI.xml
+2019-03-08 10:53:36,054 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Z50WbsTaskCmd.Mapper.xml
+2019-03-08 10:53:36,058 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Z50WbsTaskCmd.xml
+2019-03-08 10:53:36,080 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： TaskErrorHandle.aspx
+2019-03-08 10:53:36,085 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： TaskErrorHandle.aspx.cs
+2019-03-08 10:53:36,088 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： TaskManager.aspx
+2019-03-08 10:53:36,092 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： TaskManager.aspx.cs
+2019-03-08 10:53:36,098 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： TriggerFieldSearchInLocDatas.js
+2019-03-08 10:53:36,102 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： TriggerFieldSearchPalletDatas.js
+2019-03-08 10:53:36,106 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： aboutRDTeam.html
+2019-03-08 10:53:36,110 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Login.aspx
+2019-03-08 10:53:36,116 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： Logout.aspx
+2019-03-08 10:53:36,120 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： MainFrame.aspx
+2019-03-08 10:53:36,125 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SysConfig.aspx
+2019-03-08 10:53:36,136 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： DeptInfo.aspx
+2019-03-08 10:53:36,142 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： DeptInfo.aspx.cs
+2019-03-08 10:53:36,161 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： attribute-min.js
+2019-03-08 10:53:36,166 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： base-min.js
+2019-03-08 10:53:36,171 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： event-min.js
+2019-03-08 10:53:36,175 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： index.css
+2019-03-08 10:53:36,181 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： index.html
+2019-03-08 10:53:36,187 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： seed-min.js
+2019-03-08 10:53:36,203 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： base-min.js
+2019-03-08 10:53:36,208 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： base-min.js
+2019-03-08 10:53:36,212 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： custom-min.js
+2019-03-08 10:53:36,225 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： base-min.js
+2019-03-08 10:53:36,229 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： focusin-min.js
+2019-03-08 10:53:36,233 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： shake-min.js
+2019-03-08 10:53:36,258 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： bg.png
+2019-03-08 10:53:36,262 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： nav-indicator-actived.png
+2019-03-08 10:53:36,267 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： nav-indicator.png
+2019-03-08 10:53:36,271 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： nav-next-hover.png
+2019-03-08 10:53:36,275 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： nav-next.png
+2019-03-08 10:53:36,280 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： nav-pause-hover.png
+2019-03-08 10:53:36,284 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： nav-pause.png
+2019-03-08 10:53:36,294 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： nav-prev-hover.png
+2019-03-08 10:53:36,298 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： nav-prev.png
+2019-03-08 10:53:36,303 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： nav-resume-hover.png
+2019-03-08 10:53:36,308 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： nav-resume.png
+2019-03-08 10:53:36,313 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： nav.png
+2019-03-08 10:53:36,318 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： slice1-bg.png
+2019-03-08 10:53:36,322 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： slice1-leaf1.png
+2019-03-08 10:53:36,326 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： slice1-leaf2.png
+2019-03-08 10:53:36,330 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： slice1-leaf3.png
+2019-03-08 10:53:36,334 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： slice2-bg.png
+2019-03-08 10:53:36,338 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： slice3-bg.png
+2019-03-08 10:53:36,356 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： index-min.js
+2019-03-08 10:53:36,367 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： index-min.js
+2019-03-08 10:53:36,371 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： @McUI.xml
+2019-03-08 10:53:36,395 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CrudSspRole.Mapper.xml
+2019-03-08 10:53:36,401 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： CrudSspRole.xml
+2019-03-08 10:53:36,406 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ReportLoginLog.Mapper.xml
+2019-03-08 10:53:36,410 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ReportLoginLog.xml
+2019-03-08 10:53:36,416 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ReportWebLog.Mapper.xml
+2019-03-08 10:53:36,420 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ReportWebLog.xml
+2019-03-08 10:53:36,424 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBoxSsbDept.Mapper.xml
+2019-03-08 10:53:36,428 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBoxSsbDept.xml
+2019-03-08 10:53:36,432 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBoxSsbUser.Mapper.xml
+2019-03-08 10:53:36,437 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBoxSsbUser.xml
+2019-03-08 10:53:36,441 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBoxSsbWork.Mapper.xml
+2019-03-08 10:53:36,445 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBoxSsbWork.xml
+2019-03-08 10:53:36,449 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBoxSsbWorkshop.Mapper.xml
+2019-03-08 10:53:36,453 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBoxSsbWorkshop.xml
+2019-03-08 10:53:36,458 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBoxSspRole.Mapper.xml
+2019-03-08 10:53:36,462 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SearchBoxSspRole.xml
+2019-03-08 10:53:36,478 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： login.css
+2019-03-08 10:53:36,483 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： main.css
+2019-03-08 10:53:36,506 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： btn-blue.png
+2019-03-08 10:53:36,513 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： btn-yellow.png
+2019-03-08 10:53:36,517 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： btn.jpg
+2019-03-08 10:53:36,523 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： btn.png
+2019-03-08 10:53:36,527 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： errmessage.gif
+2019-03-08 10:53:36,531 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： login-b--.jpg
+2019-03-08 10:53:36,536 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： login-y.jpg
+2019-03-08 10:53:36,541 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： login-y3 (2).jpg
+2019-03-08 10:53:36,546 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： login2_03.jpg
+2019-03-08 10:53:36,551 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： login3_03.jpg
+2019-03-08 10:53:36,555 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： login_logo.png
+2019-03-08 10:53:36,559 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： mesnac.png
+2019-03-08 10:53:36,577 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： jquery-1.7.1.js
+2019-03-08 10:53:36,582 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： main.js
+2019-03-08 10:53:36,598 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SetPageMenu.aspx
+2019-03-08 10:53:36,602 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SetPageMenu.aspx.cs
+2019-03-08 10:53:36,620 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SetDeptOneRole.aspx
+2019-03-08 10:53:36,624 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SetDeptOneRole.aspx.cs
+2019-03-08 10:53:36,628 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SetOneRoleInfo.aspx
+2019-03-08 10:53:36,632 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SetOneRoleInfo.aspx.cs
+2019-03-08 10:53:36,637 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SetUserOneRole.aspx
+2019-03-08 10:53:36,641 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SetUserOneRole.aspx.cs
+2019-03-08 10:53:36,646 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ShowActionAllUser.aspx
+2019-03-08 10:53:36,650 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ShowActionAllUser.aspx.cs
+2019-03-08 10:53:36,666 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： MyUser.aspx
+2019-03-08 10:53:36,672 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SetUserAction.aspx
+2019-03-08 10:53:36,676 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： SetUserAction.aspx.cs
+2019-03-08 10:53:36,680 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： UserInfo.aspx
+2019-03-08 10:53:36,698 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： examples.css
+2019-03-08 10:53:36,705 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： ext-chinese-font.css
+2019-03-08 10:53:36,710 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： main.css
+2019-03-08 10:53:36,714 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： vssver2.scc
+2019-03-08 10:53:36,741 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： default.js
+2019-03-08 10:53:36,745 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： jquery-1.7.1.js
+2019-03-08 10:53:36,749 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： jquery.PrintArea.js
+2019-03-08 10:53:36,753 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： json.js
+2019-03-08 10:53:36,757 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： main.js
+2019-03-08 10:53:36,763 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： onkeydown.js
+2019-03-08 10:53:36,768 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： parseURL.js
+2019-03-08 10:53:36,774 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： vssver2.scc
+2019-03-08 10:53:36,779 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - File： waitwindow.js
+2019-03-08 10:53:36,784 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Frame.DbMapper/IEMS.Frame.DbMapper/PageAction.xml
+2019-03-08 10:53:36,811 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Frame.DbRI/IEMS.Frame.DbRI.Sequence.Mapper/SeqSsbUser.xml
+2019-03-08 10:53:36,817 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Frame.DbRI/IEMS.Frame.DbRI.Sequence.Mapper/SeqSslWebLog.xml
+2019-03-08 10:53:36,822 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Frame.DbRI/IEMS.Frame.DbRI.Sequence.Mapper/SeqSspPageAction.xml
+2019-03-08 10:53:36,827 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Frame.DbRI/IEMS.Frame.DbRI.Sequence.Mapper/SeqSspPageMenu.xml
+2019-03-08 10:53:36,832 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Frame.DbRI/IEMS.Frame.DbRI.Sequence.Mapper/SeqSspPageMethod.xml
+2019-03-08 10:53:36,836 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Frame.DbRI/IEMS.Frame.DbRI.Table.Mapper/SsbUser.xml
+2019-03-08 10:53:36,848 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Frame.DbRI/IEMS.Frame.DbRI.Table.Mapper/SslWebLog.xml
+2019-03-08 10:53:36,855 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Frame.DbRI/IEMS.Frame.DbRI.Table.Mapper/SspPageAction.xml
+2019-03-08 10:53:36,863 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Frame.DbRI/IEMS.Frame.DbRI.Table.Mapper/SspPageMenu.xml
+2019-03-08 10:53:36,868 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Frame.DbRI/IEMS.Frame.DbRI.Table.Mapper/SspPageMethod.xml
+2019-03-08 10:53:36,875 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbMapper/IEMS.JHWMS.DbMapper/DeptService.xml
+2019-03-08 10:53:36,880 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbMapper/IEMS.JHWMS.DbMapper/PageActionService.xml
+2019-03-08 10:53:36,884 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbMapper/IEMS.JHWMS.DbMapper/PageMenuService.xml
+2019-03-08 10:53:36,890 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbMapper/IEMS.JHWMS.DbMapper/RoleActionService.xml
+2019-03-08 10:53:36,896 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbMapper/IEMS.JHWMS.DbMapper/UserService.xml
+2019-03-08 10:53:36,901 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbMapper/IEMS.JHWMS.DbMapper/OutputService.xml
+2019-03-08 10:53:36,905 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbMapper/IEMS.JHWMS.DbMapper/BillTaskCmdService.xml
+2019-03-08 10:53:36,912 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbMapper/IEMS.JHWMS.DbMapper/TaskService.xml
+2019-03-08 10:53:36,917 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbMapper/IEMS.JHWMS.DbMapper/BinDataService.xml
+2019-03-08 10:53:36,923 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbMapper/IEMS.JHWMS.DbMapper/CrnService.xml
+2019-03-08 10:53:36,928 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbMapper/IEMS.JHWMS.DbMapper/LocAutoService.xml
+2019-03-08 10:53:36,934 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.View.Mapper/ViewUserAllAction.xml
+2019-03-08 10:53:36,939 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.View.Mapper/VSspUserAllAction.xml
+2019-03-08 10:53:36,944 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqSsbConfig.xml
+2019-03-08 10:53:36,948 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqSsbDept.xml
+2019-03-08 10:53:36,953 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqSsbUser.xml
+2019-03-08 10:53:36,958 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqSslLoginLog.xml
+2019-03-08 10:53:36,962 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqSspDeptRole.xml
+2019-03-08 10:53:36,966 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqSspPageAction.xml
+2019-03-08 10:53:36,971 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqSspPageMenu.xml
+2019-03-08 10:53:36,976 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqSspRole.xml
+2019-03-08 10:53:36,979 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqSspRoleAction.xml
+2019-03-08 10:53:36,984 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqSspUserAction.xml
+2019-03-08 10:53:36,988 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqSspUserRole.xml
+2019-03-08 10:53:36,994 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Procedure.Mapper/ProcPageMenuActionAll.xml
+2019-03-08 10:53:36,999 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Procedure.Mapper/ProcPageMenuUser.xml
+2019-03-08 10:53:37,003 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SsbConfig.xml
+2019-03-08 10:53:37,008 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SsbDept.xml
+2019-03-08 10:53:37,019 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SsbParameter.xml
+2019-03-08 10:53:37,024 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SsbUser.xml
+2019-03-08 10:53:37,032 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SsbYesNo.xml
+2019-03-08 10:53:37,038 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SslLoginLog.xml
+2019-03-08 10:53:37,043 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SslWebLog.xml
+2019-03-08 10:53:37,050 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SspDeptAction.xml
+2019-03-08 10:53:37,056 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SspDeptRole.xml
+2019-03-08 10:53:37,063 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SspPageAction.xml
+2019-03-08 10:53:37,070 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SspPageMenu.xml
+2019-03-08 10:53:37,077 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SspPageMethod.xml
+2019-03-08 10:53:37,084 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SspRole.xml
+2019-03-08 10:53:37,090 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SspRoleAction.xml
+2019-03-08 10:53:37,098 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SspUserAction.xml
+2019-03-08 10:53:37,104 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/SspUserRole.xml
+2019-03-08 10:53:37,112 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/PsbGrade.xml
+2019-03-08 10:53:37,118 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/WbsOrder.xml
+2019-03-08 10:53:37,124 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/WbsOrderLine.xml
+2019-03-08 10:53:37,132 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/WbsTask.xml
+2019-03-08 10:53:37,138 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/WbsTaskCmd.xml
+2019-03-08 10:53:37,148 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/Z50WbsTask.xml
+2019-03-08 10:53:37,156 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/Z50WbsTaskCmd.xml
+2019-03-08 10:53:37,165 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/PsbLoc.xml
+2019-03-08 10:53:37,173 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/PsbLocType.xml
+2019-03-08 10:53:37,180 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqBkViewOrderList.xml
+2019-03-08 10:53:37,186 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqWbsOrderLine.xml
+2019-03-08 10:53:37,191 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqWbsOrder.xml
+2019-03-08 10:53:37,196 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/PsbBinStatus.xml
+2019-03-08 10:53:37,203 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/PsbPallet.xml
+2019-03-08 10:53:37,210 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/PsbPalletType.xml
+2019-03-08 10:53:37,216 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Procedure.Mapper/Proc0100TaskRequest.xml
+2019-03-08 10:53:37,222 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Procedure.Mapper/Proc0200CmdRequest.xml
+2019-03-08 10:53:37,227 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Procedure.Mapper/Proc0300CmdFinish.xml
+2019-03-08 10:53:37,231 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/Tproc0100TaskRequest.xml
+2019-03-08 10:53:37,239 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/Tproc0200CmdRequest.xml
+2019-03-08 10:53:37,247 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/Tproc0300CmdFinish.xml
+2019-03-08 10:53:37,255 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqTproc0100TaskRequest.xml
+2019-03-08 10:53:37,259 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqTproc0200CmdRequest.xml
+2019-03-08 10:53:37,263 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqTproc0300CmdFinish.xml
+2019-03-08 10:53:37,268 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqWbsTask.xml
+2019-03-08 10:53:37,272 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Sequence.Mapper/SeqZ50WbsTask.xml
+2019-03-08 10:53:37,277 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/PsbCrn.xml
+2019-03-08 10:53:37,284 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/PsbCrnErr.xml
+2019-03-08 10:53:37,289 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/PsbCrnFork.xml
+2019-03-08 10:53:37,295 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Table.Mapper/PemCrnForkStatus.xml
+2019-03-08 10:53:37,302 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Procedure.Mapper/ProcWmsDeleteCmd.xml
+2019-03-08 10:53:37,309 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Procedure.Mapper/ProcWmsDeleteTask.xml
+2019-03-08 10:53:37,315 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Procedure.Mapper/ProcWmsFinishCmd.xml
+2019-03-08 10:53:37,340 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.JHWMS.DbRI/IEMS.JHWMS.DbRI.Procedure.Mapper/ProcWmsDeleteBin.xml
+2019-03-08 10:53:37,348 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbMapper/IEMS.Main.DbMapper/PageActionService.xml
+2019-03-08 10:53:37,351 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbMapper/IEMS.Main.DbMapper/PageMenuService.xml
+2019-03-08 10:53:37,356 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbMapper/IEMS.Main.DbMapper/RoleActionService.xml
+2019-03-08 10:53:37,361 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbMapper/IEMS.Main.DbMapper/UserService.xml
+2019-03-08 10:53:37,366 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbMapper/IEMS.Main.DbMapper/DeptService.xml
+2019-03-08 10:53:37,372 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Procedure.Mapper/ProcPageMenuActionAll.xml
+2019-03-08 10:53:37,378 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Procedure.Mapper/ProcPageMenuUser.xml
+2019-03-08 10:53:37,382 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Sequence.Mapper/SeqSsbConfig.xml
+2019-03-08 10:53:37,387 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Sequence.Mapper/SeqSsbDept.xml
+2019-03-08 10:53:37,391 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Sequence.Mapper/SeqSsbUser.xml
+2019-03-08 10:53:37,397 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Sequence.Mapper/SeqSslLoginLog.xml
+2019-03-08 10:53:37,403 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Sequence.Mapper/SeqSspDeptRole.xml
+2019-03-08 10:53:37,408 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Sequence.Mapper/SeqSspPageAction.xml
+2019-03-08 10:53:37,414 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Sequence.Mapper/SeqSspPageMenu.xml
+2019-03-08 10:53:37,420 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Sequence.Mapper/SeqSspRole.xml
+2019-03-08 10:53:37,425 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Sequence.Mapper/SeqSspRoleAction.xml
+2019-03-08 10:53:37,431 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Sequence.Mapper/SeqSspUserAction.xml
+2019-03-08 10:53:37,437 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Sequence.Mapper/SeqSspUserRole.xml
+2019-03-08 10:53:37,441 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Table.Mapper/SsbConfig.xml
+2019-03-08 10:53:37,447 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Table.Mapper/SsbDept.xml
+2019-03-08 10:53:37,452 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Table.Mapper/SsbUser.xml
+2019-03-08 10:53:37,460 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Table.Mapper/SslLoginLog.xml
+2019-03-08 10:53:37,466 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Table.Mapper/SspDeptRole.xml
+2019-03-08 10:53:37,472 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Table.Mapper/SspPageAction.xml
+2019-03-08 10:53:37,478 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Table.Mapper/SspPageMenu.xml
+2019-03-08 10:53:37,485 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Table.Mapper/SspRole.xml
+2019-03-08 10:53:37,492 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Table.Mapper/SspRoleAction.xml
+2019-03-08 10:53:37,498 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Table.Mapper/SspUserAction.xml
+2019-03-08 10:53:37,506 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.Table.Mapper/SspUserRole.xml
+2019-03-08 10:53:37,513 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper add assembly://IEMS.Main.DbRI/IEMS.Main.DbRI.View.Mapper/ViewUserAllAction.xml
+2019-03-08 10:53:37,523 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\BaseData\@McUI\PSBAREA.Mapper.xml
+2019-03-08 10:53:37,540 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\BaseData\@McUI\PSBMATERIAL.Mapper.xml
+2019-03-08 10:53:37,552 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\BaseData\@McUI\PsbPallet.Mapper.xml
+2019-03-08 10:53:37,557 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\BaseData\@McUI\PsbProduct.Mapper.xml
+2019-03-08 10:53:37,566 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\BinStore\@McUI\BinData.Mapper.xml
+2019-03-08 10:53:37,584 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\BinStore\@McUI\BinStatistics.Mapper.xml
+2019-03-08 10:53:37,590 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\BinStore\@McUI\InOutBinHistory.Mapper.xml
+2019-03-08 10:53:37,598 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\EquipData\@McUI\CrnErr.Mapper.xml
+2019-03-08 10:53:37,604 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\EquipData\@McUI\CrnErrLog.Mapper.xml
+2019-03-08 10:53:37,609 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\EquipData\@McUI\CrnStatusMonitor.Mapper.xml
+2019-03-08 10:53:37,614 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\EquipData\@McUI\LocErrLog.Mapper.xml
+2019-03-08 10:53:37,619 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\JobData\@McUI\CmdFinish.Mapper.xml
+2019-03-08 10:53:37,624 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\JobData\@McUI\CmdRequest.Mapper.xml
+2019-03-08 10:53:37,631 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\JobData\@McUI\PsbJobStatus.Mapper.xml
+2019-03-08 10:53:37,636 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\JobData\@McUI\TaskRequest..Mapper.xml
+2019-03-08 10:53:37,654 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\SearchBox\@McUI\SearchBinMaterial.Mapper.xml
+2019-03-08 10:53:37,674 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\SearchBox\@McUI\SearchErrOutLocData.Mapper.xml
+2019-03-08 10:53:37,679 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\SearchBox\@McUI\SearchInLocData.Mapper.xml
+2019-03-08 10:53:37,683 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\SearchBox\@McUI\SearchOutLocData.Mapper.xml
+2019-03-08 10:53:37,696 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\SearchBox\@McUI\SearchPalletData.Mapper.xml
+2019-03-08 10:53:37,702 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\JHWMS\McUI\TaskData\@McUI\Z50WbsTaskCmd.Mapper.xml
+2019-03-08 10:53:37,709 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\Main\McUI\@McUI\CrudSspRole.Mapper.xml
+2019-03-08 10:53:37,732 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\Main\McUI\@McUI\ReportLoginLog.Mapper.xml
+2019-03-08 10:53:37,765 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\Main\McUI\@McUI\ReportWebLog.Mapper.xml
+2019-03-08 10:53:37,770 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\Main\McUI\@McUI\SearchBoxSsbDept.Mapper.xml
+2019-03-08 10:53:37,787 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\Main\McUI\@McUI\SearchBoxSsbUser.Mapper.xml
+2019-03-08 10:53:37,806 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\Main\McUI\@McUI\SearchBoxSsbWork.Mapper.xml
+2019-03-08 10:53:37,820 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\Main\McUI\@McUI\SearchBoxSsbWorkshop.Mapper.xml
+2019-03-08 10:53:37,825 [10] DEBUG MSTL.DbAccess.DbHelper [(null)] - Mapper and file://E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebSite\Plugins\Main\McUI\@McUI\SearchBoxSspRole.Mapper.xml
+2019-03-08 10:53:38,252 [10] DEBUG IEMS.Main.DbRI.SsbUserService [(null)] - IEMS.Main.DbRI.SsbUserService.GetEntityList
+SELECT * FROM SSB_USER  WHERE    USER_NAME =  @param0
+参数：
+@param0=admin
+
+2019-03-08 10:53:38,384 [10] DEBUG IEMS.Main.DbRI.SslLoginLogService [(null)] - IEMS.Main.DbRI.SslLoginLogService.Update
+UPDATE SSL_LOGIN_LOG SET   USER_ID =  @param0  ,  LOGOUT_TIME =  @param1  ,  LOGOUT_IP =  @param2  WHERE    USER_ID =  @param3
+参数：
+@param0=1
+@param1=2019/3/8 10:53:38
+@param2=127.0.0.1
+@param3=1
+
+2019-03-08 10:53:38,445 [10] DEBUG IEMS.Main.DbRI.SslLoginLogService [(null)] - IEMS.Main.DbRI.SslLoginLogService.Insert
+INSERT INTO SSL_LOGIN_LOG (  USER_ID , LOGIN_TIME , LOGIN_IP ) VALUES (   @param0  ,  @param1  ,  @param2  )
+参数：
+@param0=1
+@param1=2019/3/8 10:53:38
+@param2=127.0.0.1
+
+2019-03-08 10:53:38,473 [10] DEBUG IEMS.Frame.DbRI.SspPageMethodService [(null)] - IEMS.Frame.DbRI.SspPageMethodService.GetEntityList
+SELECT * FROM SSP_PAGE_METHOD  WHERE    PAGE_ID =  @param0  AND   METHOD_NAME =  @param1
+参数：
+@param0=0
+@param1=Void btnSubmit_Click(System.Object, System.EventArgs)
+
+2019-03-08 10:53:38,486 [10] DEBUG IEMS.Frame.DbRI.SslWebLogService [(null)] - IEMS.Frame.DbRI.SslWebLogService.Insert
+INSERT INTO SSL_WEB_LOG (  USER_ID , PAGE_ID , METHOD_ID , USER_IP , METHOD_RESULT , PAGE_REQUEST , REMARK ) VALUES (   @param0  ,  @param1  ,  @param2  ,  @param3  ,  @param4  ,  @param5  ,  @param6  )
+参数：
+@param0=1
+@param1=0
+@param2=482
+@param3=127.0.0.1
+@param4=UserId=1
+@param5=__EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUILTc5NzQwNTgPZBYCAgMPZBYCAgsPFgIeB1Zpc2libGVoFgICAQ9kFgICAQ8QZA8WAWYWARAFDOWOn%2badkOaWmeW6kwUCMDFnFgFmZGTIjFI2G1%2bMZVCOTqCaC7idG9BC7mHKYWXHKnzSausumg%3d%3d&__VIEWSTATEGENERATOR=5FE3DFB7&__EVENTVALIDATION=%2fwEdAATdM5%2fxtVHzZoxnaHJU9i2rY3plgk0YBAefRz3MyBlTcHY2%2bMc6SrnAqio3oCKbxYY85pbWlDO2hADfoPXD%2f5td%2bUMTMQVnOxL%2fyobC9%2f2QGUnRQwlYkOu%2bvCDrXkfqLr0%3d&txtUserName=admin&txtPassword=123&btnSubmit=%u767b+%u5f55+%2f+Login
+@param6=用户登陆成功
+
+2019-03-08 10:53:38,669 [10] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/LOGIN.ASPX
+
+2019-03-08 10:53:38,687 [10] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=2
+
+2019-03-08 10:53:38,699 [10] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=2
+@param1=1
+
+2019-03-08 10:53:38,756 [10] DEBUG IEMS.Main.DbRI.SsbUserService [(null)] - IEMS.Main.DbRI.SsbUserService.GetEntityList
+SELECT * FROM SSB_USER  WHERE    USER_NAME =  @param0
+参数：
+@param0=admin
+
+2019-03-08 10:53:38,761 [10] DEBUG IEMS.Main.DbRI.SslLoginLogService [(null)] - IEMS.Main.DbRI.SslLoginLogService.Update
+UPDATE SSL_LOGIN_LOG SET   USER_ID =  @param0  ,  LOGOUT_TIME =  @param1  ,  LOGOUT_IP =  @param2  WHERE    USER_ID =  @param3
+参数：
+@param0=1
+@param1=2019/3/8 10:53:38
+@param2=127.0.0.1
+@param3=1
+
+2019-03-08 10:53:38,769 [10] DEBUG IEMS.Main.DbRI.SslLoginLogService [(null)] - IEMS.Main.DbRI.SslLoginLogService.Insert
+INSERT INTO SSL_LOGIN_LOG (  USER_ID , LOGIN_TIME , LOGIN_IP ) VALUES (   @param0  ,  @param1  ,  @param2  )
+参数：
+@param0=1
+@param1=2019/3/8 10:53:38
+@param2=127.0.0.1
+
+2019-03-08 10:53:38,775 [10] DEBUG IEMS.Frame.DbRI.SspPageMethodService [(null)] - IEMS.Frame.DbRI.SspPageMethodService.GetEntityList
+SELECT * FROM SSP_PAGE_METHOD  WHERE    PAGE_ID =  @param0  AND   METHOD_NAME =  @param1
+参数：
+@param0=2
+@param1=Void btnSubmit_Click(System.Object, System.EventArgs)
+
+2019-03-08 10:53:38,779 [10] DEBUG IEMS.Frame.DbRI.SslWebLogService [(null)] - IEMS.Frame.DbRI.SslWebLogService.Insert
+INSERT INTO SSL_WEB_LOG (  USER_ID , PAGE_ID , METHOD_ID , USER_IP , METHOD_RESULT , PAGE_REQUEST , REMARK ) VALUES (   @param0  ,  @param1  ,  @param2  ,  @param3  ,  @param4  ,  @param5  ,  @param6  )
+参数：
+@param0=1
+@param1=2
+@param2=480
+@param3=127.0.0.1
+@param4=UserId=1
+@param5=__EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUILTc5NzQwNTgPZBYCAgMPZBYCAgsPFgIeB1Zpc2libGVoFgICAQ9kFgICAQ8QZA8WAWYWARAFDOWOn%2badkOaWmeW6kwUCMDFnFgFmZGTIjFI2G1%2bMZVCOTqCaC7idG9BC7mHKYWXHKnzSausumg%3d%3d&__VIEWSTATEGENERATOR=5FE3DFB7&__EVENTVALIDATION=%2fwEdAATdM5%2fxtVHzZoxnaHJU9i2rY3plgk0YBAefRz3MyBlTcHY2%2bMc6SrnAqio3oCKbxYY85pbWlDO2hADfoPXD%2f5td%2bUMTMQVnOxL%2fyobC9%2f2QGUnRQwlYkOu%2bvCDrXkfqLr0%3d&txtUserName=admin&txtPassword=123&btnSubmit=%u767b+%u5f55+%2f+Login
+@param6=用户登陆成功
+
+2019-03-08 10:53:38,887 [10] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:53:38,893 [10] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:53:38,898 [10] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 10:53:38,908 [10] DEBUG IEMS.Main.DbRI.SsbUserService [(null)] - IEMS.Main.DbRI.SsbUserService.GetEntityList
+SELECT * FROM SSB_USER  WHERE    OBJID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:53:39,969 [11] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:53:39,975 [11] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:53:39,981 [11] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 10:53:40,305 [11] DEBUG IEMS.Main.DbCI.PageMenuService [(null)] - IEMS.Main.DbCI.PageMenuService.GetUserMenuPageList
+PROC_PAGE_MENU_USER
+参数：
+@UserID=1
+@MenuLevel=
+
+2019-03-08 10:53:41,419 [24] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:53:41,425 [24] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:53:41,431 [24] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 10:53:41,447 [24] DEBUG IEMS.Main.DbRI.SspPageMenuService [(null)] - IEMS.Main.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    OBJID =  @param0
+参数：
+@param0=29
+
+2019-03-08 10:53:41,455 [24] DEBUG IEMS.Main.DbCI.PageMenuService [(null)] - IEMS.Main.DbCI.PageMenuService.GetUserMenuPageList
+PROC_PAGE_MENU_USER
+参数：
+@UserID=1
+@MenuLevel=30
+
+2019-03-08 10:53:42,951 [22] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:53:42,957 [22] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:53:42,963 [22] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 10:53:42,970 [22] DEBUG IEMS.Main.DbRI.SspPageMenuService [(null)] - IEMS.Main.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    OBJID =  @param0
+参数：
+@param0=25
+
+2019-03-08 10:53:42,977 [22] DEBUG IEMS.Main.DbCI.PageMenuService [(null)] - IEMS.Main.DbCI.PageMenuService.GetUserMenuPageList
+PROC_PAGE_MENU_USER
+参数：
+@UserID=1
+@MenuLevel=10
+
+2019-03-08 10:54:29,930 [23] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:54:29,936 [23] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:54:29,942 [23] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 10:55:00,903 [23] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:55:00,910 [23] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:55:00,915 [23] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 10:55:00,922 [23] DEBUG IEMS.Main.DbRI.SspPageMenuService [(null)] - IEMS.Main.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    OBJID =  @param0
+参数：
+@param0=30
+
+2019-03-08 10:55:00,928 [23] DEBUG IEMS.Main.DbCI.PageMenuService [(null)] - IEMS.Main.DbCI.PageMenuService.GetUserMenuPageList
+PROC_PAGE_MENU_USER
+参数：
+@UserID=1
+@MenuLevel=40
+
+2019-03-08 10:55:19,927 [10] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:55:19,934 [10] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:55:19,940 [10] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 10:56:09,925 [28] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:56:09,930 [28] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:56:09,935 [28] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 10:56:17,387 [23] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:56:17,393 [23] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:56:17,398 [23] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 10:56:17,405 [23] DEBUG IEMS.Main.DbRI.SspPageMenuService [(null)] - IEMS.Main.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    OBJID =  @param0
+参数：
+@param0=31
+
+2019-03-08 10:56:17,410 [23] DEBUG IEMS.Main.DbCI.PageMenuService [(null)] - IEMS.Main.DbCI.PageMenuService.GetUserMenuPageList
+PROC_PAGE_MENU_USER
+参数：
+@UserID=1
+@MenuLevel=50
+
+2019-03-08 10:56:59,925 [5] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:56:59,931 [5] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:56:59,936 [5] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 10:57:49,925 [5] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:57:49,931 [5] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:57:49,936 [5] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 10:58:39,926 [20] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:58:39,931 [20] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:58:39,935 [20] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 10:59:29,928 [10] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 10:59:29,934 [10] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 10:59:29,940 [10] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 11:00:19,926 [31] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 11:00:19,932 [31] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 11:00:19,937 [31] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 11:01:09,926 [26] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 11:01:09,933 [26] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 11:01:09,939 [26] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 11:01:59,927 [24] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 11:01:59,932 [24] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 11:01:59,938 [24] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 11:02:11,474 [26] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 11:02:11,479 [26] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 11:02:11,486 [26] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 11:02:11,493 [26] DEBUG IEMS.Main.DbRI.SspPageMenuService [(null)] - IEMS.Main.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    OBJID =  @param0
+参数：
+@param0=32
+
+2019-03-08 11:02:11,498 [26] DEBUG IEMS.Main.DbCI.PageMenuService [(null)] - IEMS.Main.DbCI.PageMenuService.GetUserMenuPageList
+PROC_PAGE_MENU_USER
+参数：
+@UserID=1
+@MenuLevel=60
+
+2019-03-08 11:02:49,928 [32] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 11:02:49,933 [32] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 11:02:49,940 [32] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 11:03:39,927 [33] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 11:03:39,932 [33] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 11:03:39,938 [33] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 11:03:59,041 [37] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 11:03:59,047 [37] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 11:03:59,051 [37] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 11:03:59,058 [37] DEBUG IEMS.Main.DbRI.SspPageMenuService [(null)] - IEMS.Main.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    OBJID =  @param0
+参数：
+@param0=33
+
+2019-03-08 11:03:59,064 [37] DEBUG IEMS.Main.DbCI.PageMenuService [(null)] - IEMS.Main.DbCI.PageMenuService.GetUserMenuPageList
+PROC_PAGE_MENU_USER
+参数：
+@UserID=1
+@MenuLevel=70
+
+2019-03-08 11:04:29,926 [31] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 11:04:29,932 [31] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 11:04:29,937 [31] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+
+2019-03-08 11:05:19,926 [39] DEBUG IEMS.Frame.DbRI.SspPageMenuService [(null)] - IEMS.Frame.DbRI.SspPageMenuService.GetEntityList
+SELECT * FROM SSP_PAGE_MENU  WHERE    PAGE_URL =  @param0
+参数：
+@param0=PLUGINS/MAIN/MAINFRAME.ASPX
+
+2019-03-08 11:05:19,932 [39] DEBUG IEMS.Frame.DbRI.SspPageActionService [(null)] - IEMS.Frame.DbRI.SspPageActionService.GetEntityList
+SELECT * FROM SSP_PAGE_ACTION  WHERE    PAGE_MENU_ID =  @param0
+参数：
+@param0=1
+
+2019-03-08 11:05:19,937 [39] DEBUG IEMS.Frame.DbCI.PageActionService [(null)] - IEMS.Frame.DbCI.PageActionService.GetUserPageActionList
+ 
+      SELECT t1.* FROM SSP_PAGE_ACTION  t1
+      INNER JOIN V_SSP_USER_ALL_ACTION t2 ON t2.ACTION_ID = t1.OBJID
+      WHERE t1.PAGE_MENU_ID= @param0  AND t2.USER_ID= @param1 
+    
+参数：
+@param0=1
+@param1=1
+

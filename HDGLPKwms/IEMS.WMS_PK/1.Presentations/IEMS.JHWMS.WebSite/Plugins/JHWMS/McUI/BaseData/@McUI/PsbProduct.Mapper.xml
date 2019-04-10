@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.Frame.DbCI.McUIService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+   <statements>
+    <select id="Select@PsbProduct" parameterClass="map" resultClass="row">
+      <![CDATA[ 
+      SELECT [PRODUCT_GUID]
+            ,[PRODUCT_DATE]
+            ,[PRODUCT_QTY]
+            ,[BATCH_NO]
+            ,[MATER_NO]
+            ,[SHIFT_ID]
+            ,[CREATION_TIME]
+            ,[PRODUCT_EQUIP_NO]
+            ,[PALLET_NO]
+            ,[BIND_ORDER_NO]
+        FROM [dbo].[PSB_PRODUCT] T
+      ]]>
+      <dynamic prepend="WHERE">
+         <isNotNull property="where.PRODUCT_GUID" prepend="AND">
+           <![CDATA[ T.PRODUCT_GUID LIKE '%'+#where.PRODUCT_GUID#+'%']]>
+         </isNotNull>
+         <isNotNull property="where.PALLET_NO" prepend="AND">
+           <![CDATA[ T.PALLET_NO LIKE '%'+#where.PALLET_NO#+'%']]>
+         </isNotNull>
+       </dynamic>
+      ORDER BY CREATION_TIME DESC
+    </select>
+     <select id="Select@PsbProduct@MainDetail" parameterClass="map" resultClass="row">
+       <![CDATA[ 
+       SELECT * FROM PSB_PRODUCT T
+      ]]>
+       <dynamic prepend="WHERE">
+         <isNotNull property="where.PRODUCT_GUID" prepend = "AND">
+           <![CDATA[ T.PRODUCT_GUID = #where.PRODUCT_GUID#]]>
+         </isNotNull>
+       </dynamic>
+     </select>
+  </statements>
+</sqlMap>

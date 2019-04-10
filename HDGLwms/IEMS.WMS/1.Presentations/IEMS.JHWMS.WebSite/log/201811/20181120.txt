@@ -1,0 +1,4 @@
+2018-11-20 16:56:38,013 [1] DEBUG ASP._global_asax [(null)] - Application_Start
+2018-11-20 16:56:40,038 [1] DEBUG IEMS.Frame.WebGlobal.PluginManager [(null)] - PRIVATE_BINPATH=bin;
+2018-11-20 16:56:40,053 [1] DEBUG ASP._global_asax [(null)] - SetPRIVATE_BINPATH
+2018-11-20 16:56:40,083 [1] DEBUG ASP._global_asax [(null)] - new Routes().Registe();

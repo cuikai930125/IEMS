@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.JHWMS.DbRI.PsbLocService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <alias>
+     <typeAlias alias="PsbLoc" type="IEMS.JHWMS.Entity.PsbLoc, IEMS.JHWMS.Entity" />
+   </alias>
+   
+  <!--结果集映射 resultMap-->
+  <resultMap id="R_PsbLoc" class="PsbLoc">
+    <result property="LocNo" column="LOC_NO"/>
+    <result property="LocPlcNo" column="LOC_PLC_NO"/>
+    <result property="LocTypeNo" column="LOC_TYPE_NO"/>
+    <result property="LocName" column="LOC_NAME"/>
+    <result property="LocIndex" column="LOC_INDEX"/>
+    <result property="MaxBuffer" column="MAX_BUFFER"/>
+    <result property="LocGroupNo" column="LOC_GROUP_NO"/>
+    <result property="LocPriority" column="LOC_PRIORITY"/>
+    <result property="LocEnable" column="LOC_ENABLE"/>
+    <result property="AreaNo" column="AREA_NO"/>
+    <result property="TransferNo" column="TRANSFER_NO"/>
+    <result property="LimitCmdQty" column="LIMIT_CMD_QTY"/>
+    <result property="WhNo" column="WH_NO"/>
+    <result property="LocMesNo" column="LOC_MES_NO"/>
+    <result property="LocAgvNo" column="LOC_AGV_NO"/>
+    <result property="BpalletRequest" column="BPALLET_REQUEST"/>
+    <result property="BindElocNo" column="BIND_ELOC_NO"/>
+    <result property="LockRequestLoc" column="LOCK_REQUEST_LOC"/>
+    <result property="PareaNo" column="PAREA_NO"/>
+    <result property="BindPalletType" column="BIND_PALLET_TYPE"/>
+  </resultMap>
+  <!--参数集映射 parameterMap-->
+  <parameterMap id="P_PsbLoc" class="PsbLoc">
+    <parameter property="LocNo" column="LocNo"/>
+    <parameter property="LocPlcNo" column="LocPlcNo"/>
+    <parameter property="LocTypeNo" column="LocTypeNo"/>
+    <parameter property="LocName" column="LocName"/>
+    <parameter property="LocIndex" column="LocIndex"/>
+    <parameter property="MaxBuffer" column="MaxBuffer"/>
+    <parameter property="LocGroupNo" column="LocGroupNo"/>
+    <parameter property="LocPriority" column="LocPriority"/>
+    <parameter property="LocEnable" column="LocEnable"/>
+    <parameter property="AreaNo" column="AreaNo"/>
+    <parameter property="TransferNo" column="TransferNo"/>
+    <parameter property="LimitCmdQty" column="LimitCmdQty"/>
+    <parameter property="WhNo" column="WhNo"/>
+    <parameter property="LocMesNo" column="LocMesNo"/>
+    <parameter property="LocAgvNo" column="LocAgvNo"/>
+    <parameter property="BpalletRequest" column="BpalletRequest"/>
+    <parameter property="BindElocNo" column="BindElocNo"/>
+    <parameter property="LockRequestLoc" column="LockRequestLoc"/>
+    <parameter property="PareaNo" column="PareaNo"/>
+    <parameter property="BindPalletType" column="BindPalletType"/>
+  </parameterMap>
+
+   <!--本文件为自动生成，不允许进行修改-->
+   <statements>
+    <!--查询数据-->
+    <sql id="includeSelect">
+      <![CDATA[SELECT * FROM PSB_LOC ]]>
+    </sql>
+    <!--查询条件-->
+    <sql id="includeWhere">
+	  <dynamic prepend="WHERE">
+        <isNotNull property="where.LocNo" prepend="AND">
+          <isEqual property="where.LocNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.LocNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.LocNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.LocNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_NO = #where.LocNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.LocPlcNo" prepend="AND">
+          <isEqual property="where.LocPlcNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_PLC_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.LocPlcNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_PLC_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.LocPlcNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.LocPlcNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_PLC_NO = #where.LocPlcNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.LocTypeNo" prepend="AND">
+          <isEqual property="where.LocTypeNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_TYPE_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.LocTypeNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_TYPE_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.LocTypeNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.LocTypeNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_TYPE_NO = #where.LocTypeNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.LocName" prepend="AND">
+          <isEqual property="where.LocName" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_NAME IS NULL]]>
+          </isEqual>
+          <isEqual property="where.LocName" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_NAME IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.LocName" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.LocName" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_NAME = #where.LocName#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.LocIndex" prepend="AND">
+          <isEqual property="where.LocIndex" compareValue="-1147483648">
+            <![CDATA[LOC_INDEX IS NULL]]>
+          </isEqual>
+          <isEqual property="where.LocIndex" compareValue="-1147483647">
+            <![CDATA[LOC_INDEX IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.LocIndex" compareValue="-1147483648">
+          <isNotEqual property="where.LocIndex" compareValue="-1147483647">
+            <![CDATA[LOC_INDEX = #where.LocIndex#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.MaxBuffer" prepend="AND">
+          <isEqual property="where.MaxBuffer" compareValue="-1147483648">
+            <![CDATA[MAX_BUFFER IS NULL]]>
+          </isEqual>
+          <isEqual property="where.MaxBuffer" compareValue="-1147483647">
+            <![CDATA[MAX_BUFFER IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.MaxBuffer" compareValue="-1147483648">
+          <isNotEqual property="where.MaxBuffer" compareValue="-1147483647">
+            <![CDATA[MAX_BUFFER = #where.MaxBuffer#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.LocGroupNo" prepend="AND">
+          <isEqual property="where.LocGroupNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_GROUP_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.LocGroupNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_GROUP_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.LocGroupNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.LocGroupNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_GROUP_NO = #where.LocGroupNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.LocPriority" prepend="AND">
+          <isEqual property="where.LocPriority" compareValue="-1147483648">
+            <![CDATA[LOC_PRIORITY IS NULL]]>
+          </isEqual>
+          <isEqual property="where.LocPriority" compareValue="-1147483647">
+            <![CDATA[LOC_PRIORITY IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.LocPriority" compareValue="-1147483648">
+          <isNotEqual property="where.LocPriority" compareValue="-1147483647">
+            <![CDATA[LOC_PRIORITY = #where.LocPriority#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.LocEnable" prepend="AND">
+          <isEqual property="where.LocEnable" compareValue="-1147483648">
+            <![CDATA[LOC_ENABLE IS NULL]]>
+          </isEqual>
+          <isEqual property="where.LocEnable" compareValue="-1147483647">
+            <![CDATA[LOC_ENABLE IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.LocEnable" compareValue="-1147483648">
+          <isNotEqual property="where.LocEnable" compareValue="-1147483647">
+            <![CDATA[LOC_ENABLE = #where.LocEnable#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.AreaNo" prepend="AND">
+          <isEqual property="where.AreaNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[AREA_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.AreaNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[AREA_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.AreaNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.AreaNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[AREA_NO = #where.AreaNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.TransferNo" prepend="AND">
+          <isEqual property="where.TransferNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[TRANSFER_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.TransferNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[TRANSFER_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.TransferNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.TransferNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[TRANSFER_NO = #where.TransferNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.LimitCmdQty" prepend="AND">
+          <isEqual property="where.LimitCmdQty" compareValue="-1147483648">
+            <![CDATA[LIMIT_CMD_QTY IS NULL]]>
+          </isEqual>
+          <isEqual property="where.LimitCmdQty" compareValue="-1147483647">
+            <![CDATA[LIMIT_CMD_QTY IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.LimitCmdQty" compareValue="-1147483648">
+          <isNotEqual property="where.LimitCmdQty" compareValue="-1147483647">
+            <![CDATA[LIMIT_CMD_QTY = #where.LimitCmdQty#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.WhNo" prepend="AND">
+          <isEqual property="where.WhNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[WH_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.WhNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[WH_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.WhNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.WhNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[WH_NO = #where.WhNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.LocMesNo" prepend="AND">
+          <isEqual property="where.LocMesNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_MES_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.LocMesNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_MES_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.LocMesNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.LocMesNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_MES_NO = #where.LocMesNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.LocAgvNo" prepend="AND">
+          <isEqual property="where.LocAgvNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_AGV_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.LocAgvNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_AGV_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.LocAgvNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.LocAgvNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[LOC_AGV_NO = #where.LocAgvNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.BpalletRequest" prepend="AND">
+          <isEqual property="where.BpalletRequest" compareValue="-1147483648">
+            <![CDATA[BPALLET_REQUEST IS NULL]]>
+          </isEqual>
+          <isEqual property="where.BpalletRequest" compareValue="-1147483647">
+            <![CDATA[BPALLET_REQUEST IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.BpalletRequest" compareValue="-1147483648">
+          <isNotEqual property="where.BpalletRequest" compareValue="-1147483647">
+            <![CDATA[BPALLET_REQUEST = #where.BpalletRequest#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.BindElocNo" prepend="AND">
+          <isEqual property="where.BindElocNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[BIND_ELOC_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.BindElocNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[BIND_ELOC_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.BindElocNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.BindElocNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[BIND_ELOC_NO = #where.BindElocNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.LockRequestLoc" prepend="AND">
+          <isEqual property="where.LockRequestLoc" compareValue="-1147483648">
+            <![CDATA[LOCK_REQUEST_LOC IS NULL]]>
+          </isEqual>
+          <isEqual property="where.LockRequestLoc" compareValue="-1147483647">
+            <![CDATA[LOCK_REQUEST_LOC IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.LockRequestLoc" compareValue="-1147483648">
+          <isNotEqual property="where.LockRequestLoc" compareValue="-1147483647">
+            <![CDATA[LOCK_REQUEST_LOC = #where.LockRequestLoc#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.PareaNo" prepend="AND">
+          <isEqual property="where.PareaNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PAREA_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.PareaNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PAREA_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.PareaNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.PareaNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PAREA_NO = #where.PareaNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.BindPalletType" prepend="AND">
+          <isEqual property="where.BindPalletType" compareValue="STRING_NULL_VALUE">
+            <![CDATA[BIND_PALLET_TYPE IS NULL]]>
+          </isEqual>
+          <isEqual property="where.BindPalletType" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[BIND_PALLET_TYPE IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.BindPalletType" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.BindPalletType" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[BIND_PALLET_TYPE = #where.BindPalletType#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+      </dynamic>
+    </sql>
+    <!--排序条件-->
+    <sql id="includeOrderString">
+      <isNotNull property="OrderString" prepend=" ">
+        ORDER BY $OrderString$
+      </isNotNull>
+    </sql>
+    <!--添加数据-->
+   <sql id="includeInsert">
+      <![CDATA[INSERT INTO PSB_LOC]]>
+       <dynamic prepend="(">
+        <isNotNull property="LocNo" prepend=",">LOC_NO</isNotNull>
+        <isNotNull property="LocPlcNo" prepend=",">LOC_PLC_NO</isNotNull>
+        <isNotNull property="LocTypeNo" prepend=",">LOC_TYPE_NO</isNotNull>
+        <isNotNull property="LocName" prepend=",">LOC_NAME</isNotNull>
+        <isNotNull property="LocIndex" prepend=",">LOC_INDEX</isNotNull>
+        <isNotNull property="MaxBuffer" prepend=",">MAX_BUFFER</isNotNull>
+        <isNotNull property="LocGroupNo" prepend=",">LOC_GROUP_NO</isNotNull>
+        <isNotNull property="LocPriority" prepend=",">LOC_PRIORITY</isNotNull>
+        <isNotNull property="LocEnable" prepend=",">LOC_ENABLE</isNotNull>
+        <isNotNull property="AreaNo" prepend=",">AREA_NO</isNotNull>
+        <isNotNull property="TransferNo" prepend=",">TRANSFER_NO</isNotNull>
+        <isNotNull property="LimitCmdQty" prepend=",">LIMIT_CMD_QTY</isNotNull>
+        <isNotNull property="WhNo" prepend=",">WH_NO</isNotNull>
+        <isNotNull property="LocMesNo" prepend=",">LOC_MES_NO</isNotNull>
+        <isNotNull property="LocAgvNo" prepend=",">LOC_AGV_NO</isNotNull>
+        <isNotNull property="BpalletRequest" prepend=",">BPALLET_REQUEST</isNotNull>
+        <isNotNull property="BindElocNo" prepend=",">BIND_ELOC_NO</isNotNull>
+        <isNotNull property="LockRequestLoc" prepend=",">LOCK_REQUEST_LOC</isNotNull>
+        <isNotNull property="PareaNo" prepend=",">PAREA_NO</isNotNull>
+        <isNotNull property="BindPalletType" prepend=",">BIND_PALLET_TYPE</isNotNull>
+       </dynamic>
+       <dynamic prepend=") VALUES (">
+        <isNotNull property="LocNo" prepend=",">#LocNo#</isNotNull>
+        <isNotNull property="LocPlcNo" prepend=",">#LocPlcNo#</isNotNull>
+        <isNotNull property="LocTypeNo" prepend=",">#LocTypeNo#</isNotNull>
+        <isNotNull property="LocName" prepend=",">#LocName#</isNotNull>
+        <isNotNull property="LocIndex" prepend=",">#LocIndex#</isNotNull>
+        <isNotNull property="MaxBuffer" prepend=",">#MaxBuffer#</isNotNull>
+        <isNotNull property="LocGroupNo" prepend=",">#LocGroupNo#</isNotNull>
+        <isNotNull property="LocPriority" prepend=",">#LocPriority#</isNotNull>
+        <isNotNull property="LocEnable" prepend=",">#LocEnable#</isNotNull>
+        <isNotNull property="AreaNo" prepend=",">#AreaNo#</isNotNull>
+        <isNotNull property="TransferNo" prepend=",">#TransferNo#</isNotNull>
+        <isNotNull property="LimitCmdQty" prepend=",">#LimitCmdQty#</isNotNull>
+        <isNotNull property="WhNo" prepend=",">#WhNo#</isNotNull>
+        <isNotNull property="LocMesNo" prepend=",">#LocMesNo#</isNotNull>
+        <isNotNull property="LocAgvNo" prepend=",">#LocAgvNo#</isNotNull>
+        <isNotNull property="BpalletRequest" prepend=",">#BpalletRequest#</isNotNull>
+        <isNotNull property="BindElocNo" prepend=",">#BindElocNo#</isNotNull>
+        <isNotNull property="LockRequestLoc" prepend=",">#LockRequestLoc#</isNotNull>
+        <isNotNull property="PareaNo" prepend=",">#PareaNo#</isNotNull>
+        <isNotNull property="BindPalletType" prepend=",">#BindPalletType#</isNotNull>
+       </dynamic>
+       <![CDATA[)]]>
+    </sql>
+    <!--修改数据-->
+    <sql id="includeUpdate">
+      <![CDATA[UPDATE PSB_LOC]]>
+       <dynamic prepend="SET">
+        <isNotNull property="update.LocPlcNo" prepend=",">
+          <isEqual property="update.LocPlcNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_PLC_NO = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.LocPlcNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[LOC_PLC_NO = #update.LocPlcNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.LocTypeNo" prepend=",">
+          <isEqual property="update.LocTypeNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_TYPE_NO = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.LocTypeNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[LOC_TYPE_NO = #update.LocTypeNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.LocName" prepend=",">
+          <isEqual property="update.LocName" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_NAME = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.LocName" compareValue="STRING_NULL_VALUE">
+          <![CDATA[LOC_NAME = #update.LocName#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.LocIndex" prepend=",">
+          <isEqual property="update.LocIndex" compareValue="-1147483648">
+            <![CDATA[LOC_INDEX = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.LocIndex" compareValue="-1147483648">
+          <![CDATA[LOC_INDEX = #update.LocIndex#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.MaxBuffer" prepend=",">
+          <isEqual property="update.MaxBuffer" compareValue="-1147483648">
+            <![CDATA[MAX_BUFFER = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.MaxBuffer" compareValue="-1147483648">
+          <![CDATA[MAX_BUFFER = #update.MaxBuffer#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.LocGroupNo" prepend=",">
+          <isEqual property="update.LocGroupNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_GROUP_NO = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.LocGroupNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[LOC_GROUP_NO = #update.LocGroupNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.LocPriority" prepend=",">
+          <isEqual property="update.LocPriority" compareValue="-1147483648">
+            <![CDATA[LOC_PRIORITY = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.LocPriority" compareValue="-1147483648">
+          <![CDATA[LOC_PRIORITY = #update.LocPriority#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.LocEnable" prepend=",">
+          <isEqual property="update.LocEnable" compareValue="-1147483648">
+            <![CDATA[LOC_ENABLE = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.LocEnable" compareValue="-1147483648">
+          <![CDATA[LOC_ENABLE = #update.LocEnable#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.AreaNo" prepend=",">
+          <isEqual property="update.AreaNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[AREA_NO = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.AreaNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[AREA_NO = #update.AreaNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.TransferNo" prepend=",">
+          <isEqual property="update.TransferNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[TRANSFER_NO = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.TransferNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[TRANSFER_NO = #update.TransferNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.LimitCmdQty" prepend=",">
+          <isEqual property="update.LimitCmdQty" compareValue="-1147483648">
+            <![CDATA[LIMIT_CMD_QTY = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.LimitCmdQty" compareValue="-1147483648">
+          <![CDATA[LIMIT_CMD_QTY = #update.LimitCmdQty#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.WhNo" prepend=",">
+          <isEqual property="update.WhNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[WH_NO = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.WhNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[WH_NO = #update.WhNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.LocMesNo" prepend=",">
+          <isEqual property="update.LocMesNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_MES_NO = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.LocMesNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[LOC_MES_NO = #update.LocMesNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.LocAgvNo" prepend=",">
+          <isEqual property="update.LocAgvNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[LOC_AGV_NO = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.LocAgvNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[LOC_AGV_NO = #update.LocAgvNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.BpalletRequest" prepend=",">
+          <isEqual property="update.BpalletRequest" compareValue="-1147483648">
+            <![CDATA[BPALLET_REQUEST = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.BpalletRequest" compareValue="-1147483648">
+          <![CDATA[BPALLET_REQUEST = #update.BpalletRequest#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.BindElocNo" prepend=",">
+          <isEqual property="update.BindElocNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[BIND_ELOC_NO = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.BindElocNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[BIND_ELOC_NO = #update.BindElocNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.LockRequestLoc" prepend=",">
+          <isEqual property="update.LockRequestLoc" compareValue="-1147483648">
+            <![CDATA[LOCK_REQUEST_LOC = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.LockRequestLoc" compareValue="-1147483648">
+          <![CDATA[LOCK_REQUEST_LOC = #update.LockRequestLoc#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.PareaNo" prepend=",">
+          <isEqual property="update.PareaNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PAREA_NO = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.PareaNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[PAREA_NO = #update.PareaNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.BindPalletType" prepend=",">
+          <isEqual property="update.BindPalletType" compareValue="STRING_NULL_VALUE">
+            <![CDATA[BIND_PALLET_TYPE = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.BindPalletType" compareValue="STRING_NULL_VALUE">
+          <![CDATA[BIND_PALLET_TYPE = #update.BindPalletType#]]>
+          </isNotEqual>
+        </isNotNull>
+      </dynamic>
+    </sql>
+    <!--删除数据-->
+    <sql id="includeDelete">
+      <![CDATA[DELETE FROM PSB_LOC]]>
+    </sql>
+
+	
+    <!--增删改查配置信息-->
+    <!--指定条件的查询-->
+    <select id="GetEntityList" parameterClass="map" resultMap="R_PsbLoc">
+      <include refid="includeSelect"/>
+      <include refid="includeWhere"/>
+      <include refid="includeOrderString"/>
+    </select>
+    <!--指定条件的查询-->
+    <select id="GetEntityTable" parameterClass="map" resultClass="row">
+      <include refid="includeSelect"/>
+      <include refid="includeWhere"/>
+      <include refid="includeOrderString"/>
+    </select>
+    <!--获取某个属性（数据列）的最大值-->
+    <select id="GetColumnMaxValue" parameterClass="map" resultClass="map">
+      <![CDATA[SELECT]]>
+      <isPropertyAvailable property="ColumnName" prepend=" ">
+      <![CDATA[MAX($ColumnName$)]]>
+      </isPropertyAvailable>
+      <![CDATA[FROM PSB_LOC]]>
+      <include refid="includeWhere"/>
+    </select>
+    <!--获取数据条数-->
+    <select id="GetRowCount" parameterClass="map" resultClass="int">
+      <![CDATA[SELECT COUNT(*) FROM PSB_LOC]]>
+      <include refid="includeWhere"/>
+    </select>
+    <!--添加新记录-->
+    <statement id="Insert" parameterMap="P_PsbLoc" resultClass="int">
+      <include refid="includeInsert"/>
+    </statement>
+    <!--更新记录-->
+    <update id="Update" parameterClass="map">
+      <include refid="includeUpdate"/>
+      <include refid="includeWhere"/>
+    </update>
+    <!--删除对象对应的记录-->
+    <delete id="Delete" parameterClass="map">
+      <include refid="includeDelete"/>
+      <include refid="includeWhere"/>
+    </delete>
+  </statements>
+</sqlMap>

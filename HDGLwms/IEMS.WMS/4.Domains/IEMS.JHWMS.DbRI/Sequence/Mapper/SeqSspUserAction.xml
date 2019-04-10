@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.JHWMS.DbRI.SeqSspUserActionService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+   <!--本文件为自动生成，不允许进行修改-->
+   <statements>
+    <select id="SEQ_SSP_USER_ACTION.NEXTVAL" resultClass="int">
+	  <![CDATA[SELECT NEXT VALUE FOR SEQ_SSP_USER_ACTION]]>
+    </select>
+    <select id="SEQ_SSP_USER_ACTION.CURRVAL" resultClass="int">
+	  <![CDATA[SELECT CURRENT_VALUE FROM SYS.SEQUENCES WHERE NAME = 'SEQ_SSP_USER_ACTION']]>
+    </select>
+  </statements>
+</sqlMap>

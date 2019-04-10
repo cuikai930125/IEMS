@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.Frame.DbCI.McUIService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+   <statements>
+    <select id="Select@PsbArea" parameterClass="map" resultClass="row">
+      <![CDATA[ 
+                SELECT [AREA_NO]
+                ,[AREA_NAME]
+                ,[AREA_LEVEL]
+                ,[FMEM]
+                ,[LAST_LEVEL_FLAG]
+                ,[PAREA_NO]
+                ,[MAX_TASK_SIZE]
+                ,[WH_NO]
+                  FROM [dbo].[PSB_AREA]
+      ]]>
+      <dynamic prepend="WHERE">
+         <isNotNull property="where.AREA_NO" prepend="AND">
+           <![CDATA[ T.AREA_NO LIKE '%'+#where.AREA_NO#+ '%']]>
+         </isNotNull>
+       </dynamic>
+      ORDER BY AREA_NO
+    </select>
+     <select id="Select+Update@PsbArea" parameterClass="int" resultClass="row">
+       <![CDATA[ 
+       SELECT * FROM PSB_AREA T
+      ]]>
+       <dynamic prepend="WHERE">
+         <isNotNull property="where.AREA_NO" prepend = "AND">
+           <![CDATA[ T.AREA_NO = #where.AREA_NO#]]>
+         </isNotNull>
+       </dynamic>
+     </select>
+  </statements>
+</sqlMap>

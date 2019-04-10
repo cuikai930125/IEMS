@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.Frame.DbCI.McUIService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <statements>
+    <select id="Select@CmdFinish" parameterClass="map" resultClass="row">
+      <![CDATA[ 
+      SELECT TOP 1000 T.[OBJID]
+            ,CASE T.[ERR_CODE] WHEN 0 THEN '正常' ELSE '异常' END ERR_CODE
+            ,T.[ERR_DESC]
+            ,CASE T.[PROC_STATUS] WHEN 0 THEN '等待' WHEN 1 THEN '执行' WHEN 2 THEN '完成' END PROC_STATUS
+            ,T.[PROC_CREATE_TIME]
+            ,T.[PROC_EXCUTE_TIME]
+            ,T.[PROC_FINISH_TIME]
+            ,T1.LOC_NO CURR_LOC_NO
+            ,T.[CMD_OBJID]
+            ,T.[TASK_NO]
+            ,T.[TASK_GUID]
+            ,CASE T.[FINISH_STATUS] WHEN 201 THEN '空出库' ELSE '正常' END FINISH_STATUS
+            ,T.[PALLET_NO]
+            ,T2.LOC_NO ELOC_NO
+            ,T.[SLOC_TYPE]
+            ,T.[ELOC_TYPE]
+            ,T.[TRANSFER_TYPE]
+            ,T.[TRANSFER_NO]
+            ,T.[ALL_ROUTE_NOS]
+            ,T.[UNEXE_ROUTE_NOS]
+            ,T.[CURR_ROUTE_NO]
+            ,T.[PACKAGE_GUID]
+            ,T.[CMD_REQUEST_ID]
+        FROM [dbo].[TPROC_0300_CMD_FINISH] T
+        LEFT JOIN PSB_LOC T1 ON T1.LOC_NO = T.CURR_LOC_NO
+        LEFT JOIN PSB_LOC T2 ON T2.LOC_NO = T.ELOC_NO
+      ]]>
+      <dynamic prepend="WHERE">
+        <isNotNull property="where.OBJID" prepend="AND">
+          <![CDATA[ T.OBJID = #where.OBJID#]]>
+        </isNotNull>
+        <isNotNull property="where.CURR_LOC_NO" prepend="AND">
+          <![CDATA[ T1.LOC_NO = #where.LOC_NO#]]>
+        </isNotNull>
+        <isNotNull property="where.CMD_OBJID" prepend="AND">
+          <![CDATA[ T.CMD_OBJID = #where.CMD_OBJID#]]>
+        </isNotNull>
+      </dynamic>
+      ORDER BY T.OBJID DESC
+    </select>
+    <select id="Select@CmdFinish@MainDetail" parameterClass="int" resultClass="row">
+      <![CDATA[ 
+       SELECT * FROM TPROC_0300_CMD_FINISH T
+      ]]>
+      <dynamic prepend="WHERE">
+        <isNotNull property="where.OBJID" prepend = "AND">
+          <![CDATA[ T.OBJID = #where.OBJID#]]>
+        </isNotNull>
+      </dynamic>
+    </select>
+  </statements>
+</sqlMap>

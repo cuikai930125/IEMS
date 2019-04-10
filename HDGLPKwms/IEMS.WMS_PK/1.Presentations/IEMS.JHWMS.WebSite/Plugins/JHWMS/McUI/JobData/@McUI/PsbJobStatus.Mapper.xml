@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.Frame.DbCI.McUIService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+   <statements>
+    <select id="Select@PsbJobStatus" parameterClass="map" resultClass="row">
+      <![CDATA[ 
+      SELECT [ID]
+            ,[JOBNO]
+            ,[JOBNAME]
+            ,[INTERVAL]
+            ,CASE [JOBSTATUS] WHEN 0 THEN '等待' WHEN 1 THEN '执行中' WHEN 2 THEN '完成' END JOBSTATUS
+            ,[EXCUTERESULT]
+            ,CASE [USEDFLAG] WHEN 0 THEN '禁用' ELSE '启用' END USEDFLAG
+            ,[LASTEXCUTETIME]
+            ,[MAXEXCUTETIME]
+            ,[MINEXCUTETIME]
+            ,[AVGEXCUTETIME]
+            ,[TOTALEXCUTETIME]
+            ,[EXCUTECOUNT]
+            ,[SPNAME]
+        FROM [dbo].[PSB_JOB_STATUS] T
+      ]]>
+      <dynamic prepend="WHERE">
+         <isNotNull property="where.ID" prepend="AND">
+           <![CDATA[ T.ID = #where.ID#]]>
+         </isNotNull>
+       </dynamic>
+      ORDER BY T.ID DESC
+    </select>
+     <select id="Select@PsbJobStatus@MainDetail" parameterClass="int" resultClass="row">
+       <![CDATA[ 
+       SELECT * FROM PSB_JOB_STATUS T
+      ]]>
+       <dynamic prepend="WHERE">
+         <isNotNull property="where.ID" prepend = "AND">
+           <![CDATA[ T.ID = #where.ID#]]>                                                                                                                                                                                                                                                                  
+         </isNotNull>
+       </dynamic>
+     </select>
+  </statements>
+</sqlMap>

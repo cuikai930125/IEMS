@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.Frame.DbCI.McUIService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+   <statements>
+     <select id="Select@LocErrLog" parameterClass="map" resultClass="row">    
+      <![CDATA[        
+        SELECT LOC_PLC_NO,ERR_DESC,START_DATE,END_DATE,LAST_DATE FROM Z40_LOC_ERR_LOG T
+      ]]>
+       <dynamic prepend="WHERE">
+         <isNotNull property="where.LOC_PLC_NO" prepend="AND">
+           <![CDATA[ T.LOC_PLC_NO like '%'+#where.LOC_PLC_NO#+'%']]>
+         </isNotNull>
+         <isNotNull property="where.err_desc" prepend="AND">
+           <![CDATA[ T.ERR_DESC like '%'+#where.ERR_DESC#+'%' ]]>
+         </isNotNull>
+         <isNotNull property="where.START_DATE" prepend="AND">
+           <![CDATA[ T.START_DATE >=#where.B_TIME#  ]]>
+         </isNotNull>
+         <isNotNull property="where.START_DATE" prepend="AND">
+           <![CDATA[ T.START_DATE <=1+ #where.E_TIME#  ]]>
+         </isNotNull>
+       </dynamic>
+       ORDER BY T.START_DATE DESC
+     </select>
+   </statements>
+</sqlMap>

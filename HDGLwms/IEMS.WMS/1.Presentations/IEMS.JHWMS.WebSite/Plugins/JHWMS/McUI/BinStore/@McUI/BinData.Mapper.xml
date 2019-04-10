@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.Frame.DbCI.McUIService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+   <statements>
+     <select id="Select@BinData" parameterClass="map" resultClass="row">
+       <![CDATA[ 
+        SELECT T.BIN_NO
+              ,T.CREATION_DATE
+              ,CASE T2.BIN_STATUS WHEN CHAR(36) THEN '正常' ELSE '异常' END BIN_STATUS
+              ,CASE T2.BIN_BIZ_STATUS WHEN '_' THEN '在库' WHEN 'O' THEN '预约出库' WHEN 'I' THEN '预约入库' WHEN 'M' THEN '移库' ELSE '其他' END BIN_BIZ_STATUS
+              ,T.PALLET_NO
+              ,T1.MATER_NO
+              ,T1.MATER_NAME
+              ,T1.PRODUCT_GUID
+              ,T1.PRODUCT_DATE
+              ,T1.PRODUCT_QTY
+              ,T1.MAIN_UNIT
+         FROM WBS_BIN T
+         LEFT JOIN WBS_PACKAGE_DATA T1 ON T1.PACKAGE_GUID = T.PACKAGE_GUID
+         LEFT JOIN PSB_BIN_STATUS T2 ON T2.BIN_NO = T.BIN_NO
+      ]]>
+       <dynamic prepend="where">
+         <isNotNull property="where.BIN_NO" prepend="AND">
+           <![CDATA[ T.BIN_NO like '%'+#where.BIN_NO#+'%']]>
+         </isNotNull>
+         <isNotNull property="where.MATER_NO" prepend="AND">
+           <![CDATA[ T1.MATER_NO like '%'+#where.MATER_NO#+'%']]>
+         </isNotNull>
+         <isNotNull property="where.PALLET_NO" prepend="AND">
+           <![CDATA[ T.PALLET_NO like '%'+#where.PALLET_NO#+'%']]>
+         </isNotNull>
+         <isNotNull property="where.BTIME" prepend="AND">
+           <![CDATA[ T.CREATION_DATE >=#where.BTIME#  ]]>
+         </isNotNull>
+         <isNotNull property="where.ETIME" prepend="AND">
+           <![CDATA[ T.CREATION_DATE <= 1+#where.ETIME#  ]]>
+         </isNotNull>
+       </dynamic>
+       <isNotNull property="Order By" prepend="">
+         ORDER BY T.BIN_NO
+       </isNotNull>
+     </select>
+     <select id="Select@BinData@MainDetail" parameterClass="int" resultClass="row">
+       <![CDATA[ 
+       SELECT T.BIN_NO
+              ,T.CREATION_DATE
+              ,CASE T2.BIN_STATUS WHEN CHAR(36) THEN '正常' ELSE '异常' END BIN_STATUS
+              ,CASE T2.BIN_BIZ_STATUS WHEN 'O' THEN '预约出库' WHEN 'I' THEN '预约入库' WHEN 'M' THEN '移库' ELSE '其他' END BIN_BIZ_STATUS
+              ,T.PALLET_NO
+              ,T1.MATER_NO
+              ,T1.MATER_NAME
+              ,T1.PRODUCT_GUID
+              ,T1.PRODUCT_DATE
+              ,T1.PRODUCT_QTY
+              ,T1.MAIN_UNIT
+         FROM WBS_BIN T
+         LEFT JOIN WBS_PACKAGE_DATA T1 ON T1.PACKAGE_GUID = T.PACKAGE_GUID
+         LEFT JOIN PSB_BIN_STATUS T2 ON T2.BIN_NO = T.BIN_NO
+      ]]>
+       <dynamic prepend="WHERE">
+         <isNotNull property="where.BIN_NO" prepend = "AND">
+           <![CDATA[ T.BIN_NO = #where.BIN_NO#]]>
+         </isNotNull>
+       </dynamic>
+     </select>
+  </statements>
+</sqlMap>

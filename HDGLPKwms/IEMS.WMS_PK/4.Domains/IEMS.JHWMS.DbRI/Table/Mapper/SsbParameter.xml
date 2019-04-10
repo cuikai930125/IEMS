@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.JHWMS.DbRI.SsbParameterService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <alias>
+     <typeAlias alias="SsbParameter" type="IEMS.JHWMS.Entity.SsbParameter, IEMS.JHWMS.Entity" />
+   </alias>
+   
+  <!--结果集映射 resultMap-->
+  <resultMap id="R_SsbParameter" class="SsbParameter">
+    <result property="ParamNo" column="PARAM_NO"/>
+    <result property="ParamDesc" column="PARAM_DESC"/>
+    <result property="ParamType" column="PARAM_TYPE"/>
+    <result property="ParamValue" column="PARAM_VALUE"/>
+  </resultMap>
+  <!--参数集映射 parameterMap-->
+  <parameterMap id="P_SsbParameter" class="SsbParameter">
+    <parameter property="ParamNo" column="ParamNo"/>
+    <parameter property="ParamDesc" column="ParamDesc"/>
+    <parameter property="ParamType" column="ParamType"/>
+    <parameter property="ParamValue" column="ParamValue"/>
+  </parameterMap>
+
+   <!--本文件为自动生成，不允许进行修改-->
+   <statements>
+    <!--查询数据-->
+    <sql id="includeSelect">
+      <![CDATA[SELECT * FROM SSB_PARAMETER ]]>
+    </sql>
+    <!--查询条件-->
+    <sql id="includeWhere">
+	  <dynamic prepend="WHERE">
+        <isNotNull property="where.ParamNo" prepend="AND">
+          <isEqual property="where.ParamNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PARAM_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.ParamNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PARAM_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.ParamNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.ParamNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PARAM_NO = #where.ParamNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.ParamDesc" prepend="AND">
+          <isEqual property="where.ParamDesc" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PARAM_DESC IS NULL]]>
+          </isEqual>
+          <isEqual property="where.ParamDesc" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PARAM_DESC IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.ParamDesc" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.ParamDesc" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PARAM_DESC = #where.ParamDesc#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.ParamType" prepend="AND">
+          <isEqual property="where.ParamType" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PARAM_TYPE IS NULL]]>
+          </isEqual>
+          <isEqual property="where.ParamType" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PARAM_TYPE IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.ParamType" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.ParamType" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PARAM_TYPE = #where.ParamType#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.ParamValue" prepend="AND">
+          <isEqual property="where.ParamValue" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PARAM_VALUE IS NULL]]>
+          </isEqual>
+          <isEqual property="where.ParamValue" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PARAM_VALUE IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.ParamValue" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.ParamValue" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PARAM_VALUE = #where.ParamValue#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+      </dynamic>
+    </sql>
+    <!--排序条件-->
+    <sql id="includeOrderString">
+      <isNotNull property="OrderString" prepend=" ">
+        ORDER BY $OrderString$
+      </isNotNull>
+    </sql>
+    <!--添加数据-->
+   <sql id="includeInsert">
+      <![CDATA[INSERT INTO SSB_PARAMETER]]>
+       <dynamic prepend="(">
+        <isNotNull property="ParamNo" prepend=",">PARAM_NO</isNotNull>
+        <isNotNull property="ParamDesc" prepend=",">PARAM_DESC</isNotNull>
+        <isNotNull property="ParamType" prepend=",">PARAM_TYPE</isNotNull>
+        <isNotNull property="ParamValue" prepend=",">PARAM_VALUE</isNotNull>
+       </dynamic>
+       <dynamic prepend=") VALUES (">
+        <isNotNull property="ParamNo" prepend=",">#ParamNo#</isNotNull>
+        <isNotNull property="ParamDesc" prepend=",">#ParamDesc#</isNotNull>
+        <isNotNull property="ParamType" prepend=",">#ParamType#</isNotNull>
+        <isNotNull property="ParamValue" prepend=",">#ParamValue#</isNotNull>
+       </dynamic>
+       <![CDATA[)]]>
+    </sql>
+    <!--修改数据-->
+    <sql id="includeUpdate">
+      <![CDATA[UPDATE SSB_PARAMETER]]>
+       <dynamic prepend="SET">
+        <isNotNull property="update.ParamNo" prepend=",">
+          <isEqual property="update.ParamNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PARAM_NO = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.ParamNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[PARAM_NO = #update.ParamNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.ParamDesc" prepend=",">
+          <isEqual property="update.ParamDesc" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PARAM_DESC = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.ParamDesc" compareValue="STRING_NULL_VALUE">
+          <![CDATA[PARAM_DESC = #update.ParamDesc#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.ParamType" prepend=",">
+          <isEqual property="update.ParamType" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PARAM_TYPE = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.ParamType" compareValue="STRING_NULL_VALUE">
+          <![CDATA[PARAM_TYPE = #update.ParamType#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.ParamValue" prepend=",">
+          <isEqual property="update.ParamValue" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PARAM_VALUE = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.ParamValue" compareValue="STRING_NULL_VALUE">
+          <![CDATA[PARAM_VALUE = #update.ParamValue#]]>
+          </isNotEqual>
+        </isNotNull>
+      </dynamic>
+    </sql>
+    <!--删除数据-->
+    <sql id="includeDelete">
+      <![CDATA[DELETE FROM SSB_PARAMETER]]>
+    </sql>
+
+	
+    <!--增删改查配置信息-->
+    <!--指定条件的查询-->
+    <select id="GetEntityList" parameterClass="map" resultMap="R_SsbParameter">
+      <include refid="includeSelect"/>
+      <include refid="includeWhere"/>
+      <include refid="includeOrderString"/>
+    </select>
+    <!--指定条件的查询-->
+    <select id="GetEntityTable" parameterClass="map" resultClass="row">
+      <include refid="includeSelect"/>
+      <include refid="includeWhere"/>
+      <include refid="includeOrderString"/>
+    </select>
+    <!--获取某个属性（数据列）的最大值-->
+    <select id="GetColumnMaxValue" parameterClass="map" resultClass="map">
+      <![CDATA[SELECT]]>
+      <isPropertyAvailable property="ColumnName" prepend=" ">
+      <![CDATA[MAX($ColumnName$)]]>
+      </isPropertyAvailable>
+      <![CDATA[FROM SSB_PARAMETER]]>
+      <include refid="includeWhere"/>
+    </select>
+    <!--获取数据条数-->
+    <select id="GetRowCount" parameterClass="map" resultClass="int">
+      <![CDATA[SELECT COUNT(*) FROM SSB_PARAMETER]]>
+      <include refid="includeWhere"/>
+    </select>
+    <!--添加新记录-->
+    <statement id="Insert" parameterMap="P_SsbParameter" resultClass="int">
+      <include refid="includeInsert"/>
+    </statement>
+    <!--更新记录-->
+    <update id="Update" parameterClass="map">
+      <include refid="includeUpdate"/>
+      <include refid="includeWhere"/>
+    </update>
+    <!--删除对象对应的记录-->
+    <delete id="Delete" parameterClass="map">
+      <include refid="includeDelete"/>
+      <include refid="includeWhere"/>
+    </delete>
+  </statements>
+</sqlMap>

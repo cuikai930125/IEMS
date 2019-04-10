@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.JHWMS.DbRI.PsbPalletTypeService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <alias>
+     <typeAlias alias="PsbPalletType" type="IEMS.JHWMS.Entity.PsbPalletType, IEMS.JHWMS.Entity" />
+   </alias>
+   
+  <!--结果集映射 resultMap-->
+  <resultMap id="R_PsbPalletType" class="PsbPalletType">
+    <result property="PalletTypeNo" column="PALLET_TYPE_NO"/>
+    <result property="PalletTypeName" column="PALLET_TYPE_NAME"/>
+    <result property="BindMaterNo" column="BIND_MATER_NO"/>
+    <result property="BinClass" column="BIN_CLASS"/>
+  </resultMap>
+  <!--参数集映射 parameterMap-->
+  <parameterMap id="P_PsbPalletType" class="PsbPalletType">
+    <parameter property="PalletTypeNo" column="PalletTypeNo"/>
+    <parameter property="PalletTypeName" column="PalletTypeName"/>
+    <parameter property="BindMaterNo" column="BindMaterNo"/>
+    <parameter property="BinClass" column="BinClass"/>
+  </parameterMap>
+
+   <!--本文件为自动生成，不允许进行修改-->
+   <statements>
+    <!--查询数据-->
+    <sql id="includeSelect">
+      <![CDATA[SELECT * FROM PSB_PALLET_TYPE ]]>
+    </sql>
+    <!--查询条件-->
+    <sql id="includeWhere">
+	  <dynamic prepend="WHERE">
+        <isNotNull property="where.PalletTypeNo" prepend="AND">
+          <isEqual property="where.PalletTypeNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PALLET_TYPE_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.PalletTypeNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PALLET_TYPE_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.PalletTypeNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.PalletTypeNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PALLET_TYPE_NO = #where.PalletTypeNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.PalletTypeName" prepend="AND">
+          <isEqual property="where.PalletTypeName" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PALLET_TYPE_NAME IS NULL]]>
+          </isEqual>
+          <isEqual property="where.PalletTypeName" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PALLET_TYPE_NAME IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.PalletTypeName" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.PalletTypeName" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[PALLET_TYPE_NAME = #where.PalletTypeName#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.BindMaterNo" prepend="AND">
+          <isEqual property="where.BindMaterNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[BIND_MATER_NO IS NULL]]>
+          </isEqual>
+          <isEqual property="where.BindMaterNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[BIND_MATER_NO IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.BindMaterNo" compareValue="STRING_NULL_VALUE">
+          <isNotEqual property="where.BindMaterNo" compareValue="STRING_NOT_NULL_VALUE">
+            <![CDATA[BIND_MATER_NO = #where.BindMaterNo#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="where.BinClass" prepend="AND">
+          <isEqual property="where.BinClass" compareValue="-1147483648">
+            <![CDATA[BIN_CLASS IS NULL]]>
+          </isEqual>
+          <isEqual property="where.BinClass" compareValue="-1147483647">
+            <![CDATA[BIN_CLASS IS NOT NULL]]>
+          </isEqual>
+          <isNotEqual property="where.BinClass" compareValue="-1147483648">
+          <isNotEqual property="where.BinClass" compareValue="-1147483647">
+            <![CDATA[BIN_CLASS = #where.BinClass#]]>
+          </isNotEqual>
+          </isNotEqual>
+        </isNotNull>
+      </dynamic>
+    </sql>
+    <!--排序条件-->
+    <sql id="includeOrderString">
+      <isNotNull property="OrderString" prepend=" ">
+        ORDER BY $OrderString$
+      </isNotNull>
+    </sql>
+    <!--添加数据-->
+   <sql id="includeInsert">
+      <![CDATA[INSERT INTO PSB_PALLET_TYPE]]>
+       <dynamic prepend="(">
+        <isNotNull property="PalletTypeNo" prepend=",">PALLET_TYPE_NO</isNotNull>
+        <isNotNull property="PalletTypeName" prepend=",">PALLET_TYPE_NAME</isNotNull>
+        <isNotNull property="BindMaterNo" prepend=",">BIND_MATER_NO</isNotNull>
+        <isNotNull property="BinClass" prepend=",">BIN_CLASS</isNotNull>
+       </dynamic>
+       <dynamic prepend=") VALUES (">
+        <isNotNull property="PalletTypeNo" prepend=",">#PalletTypeNo#</isNotNull>
+        <isNotNull property="PalletTypeName" prepend=",">#PalletTypeName#</isNotNull>
+        <isNotNull property="BindMaterNo" prepend=",">#BindMaterNo#</isNotNull>
+        <isNotNull property="BinClass" prepend=",">#BinClass#</isNotNull>
+       </dynamic>
+       <![CDATA[)]]>
+    </sql>
+    <!--修改数据-->
+    <sql id="includeUpdate">
+      <![CDATA[UPDATE PSB_PALLET_TYPE]]>
+       <dynamic prepend="SET">
+        <isNotNull property="update.PalletTypeName" prepend=",">
+          <isEqual property="update.PalletTypeName" compareValue="STRING_NULL_VALUE">
+            <![CDATA[PALLET_TYPE_NAME = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.PalletTypeName" compareValue="STRING_NULL_VALUE">
+          <![CDATA[PALLET_TYPE_NAME = #update.PalletTypeName#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.BindMaterNo" prepend=",">
+          <isEqual property="update.BindMaterNo" compareValue="STRING_NULL_VALUE">
+            <![CDATA[BIND_MATER_NO = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.BindMaterNo" compareValue="STRING_NULL_VALUE">
+          <![CDATA[BIND_MATER_NO = #update.BindMaterNo#]]>
+          </isNotEqual>
+        </isNotNull>
+        <isNotNull property="update.BinClass" prepend=",">
+          <isEqual property="update.BinClass" compareValue="-1147483648">
+            <![CDATA[BIN_CLASS = NULL]]>
+          </isEqual>
+          <isNotEqual property="update.BinClass" compareValue="-1147483648">
+          <![CDATA[BIN_CLASS = #update.BinClass#]]>
+          </isNotEqual>
+        </isNotNull>
+      </dynamic>
+    </sql>
+    <!--删除数据-->
+    <sql id="includeDelete">
+      <![CDATA[DELETE FROM PSB_PALLET_TYPE]]>
+    </sql>
+
+	
+    <!--增删改查配置信息-->
+    <!--指定条件的查询-->
+    <select id="GetEntityList" parameterClass="map" resultMap="R_PsbPalletType">
+      <include refid="includeSelect"/>
+      <include refid="includeWhere"/>
+      <include refid="includeOrderString"/>
+    </select>
+    <!--指定条件的查询-->
+    <select id="GetEntityTable" parameterClass="map" resultClass="row">
+      <include refid="includeSelect"/>
+      <include refid="includeWhere"/>
+      <include refid="includeOrderString"/>
+    </select>
+    <!--获取某个属性（数据列）的最大值-->
+    <select id="GetColumnMaxValue" parameterClass="map" resultClass="map">
+      <![CDATA[SELECT]]>
+      <isPropertyAvailable property="ColumnName" prepend=" ">
+      <![CDATA[MAX($ColumnName$)]]>
+      </isPropertyAvailable>
+      <![CDATA[FROM PSB_PALLET_TYPE]]>
+      <include refid="includeWhere"/>
+    </select>
+    <!--获取数据条数-->
+    <select id="GetRowCount" parameterClass="map" resultClass="int">
+      <![CDATA[SELECT COUNT(*) FROM PSB_PALLET_TYPE]]>
+      <include refid="includeWhere"/>
+    </select>
+    <!--添加新记录-->
+    <statement id="Insert" parameterMap="P_PsbPalletType" resultClass="int">
+      <include refid="includeInsert"/>
+    </statement>
+    <!--更新记录-->
+    <update id="Update" parameterClass="map">
+      <include refid="includeUpdate"/>
+      <include refid="includeWhere"/>
+    </update>
+    <!--删除对象对应的记录-->
+    <delete id="Delete" parameterClass="map">
+      <include refid="includeDelete"/>
+      <include refid="includeWhere"/>
+    </delete>
+  </statements>
+</sqlMap>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UiConfig>
+  <Captions>
+    <Caption Name="OBJID"               Value="主键ID" ></Caption>
+    <Caption Name="PROC_STATUS"         Value="状态" ></Caption>
+    <Caption Name="ERR_CODE"            Value="执行结果" ></Caption>
+    <Caption Name="ERR_DESC"            Value="错误描述" ></Caption>
+    <Caption Name="PROC_CREATE_TIME"    Value="创建时间" ></Caption>
+    <Caption Name="PROC_EXCUTE_TIME"    Value="开始执行时间" ></Caption>
+    <Caption Name="PROC_FINISH_TIME"    Value="结束执行时间" ></Caption>
+    <Caption Name="CURR_LOC_NO"         Value="当前站台" ></Caption>
+    <Caption Name="CMD_OBJID"           Value="指令编号" ></Caption>
+    <Caption Name="TASK_NO"             Value="生成任务号" ></Caption>
+    <Caption Name="TASK_GUID"           Value="任务GUID" ></Caption>
+    <Caption Name="FINISH_STATUS"       Value="结束状态" ></Caption>
+    <Caption Name="PALLET_NO"           Value="工装编号" ></Caption>
+    <Caption Name="TRANSFER_NO"         Value="输送设备" ></Caption>
+    <Caption Name="ALL_ROUTE_NOS"       Value="执行路径串" ></Caption>
+    <Caption Name="UNEXE_ROUTE_NOS"     Value="未执行路径" ></Caption>
+    <Caption Name="CURR_ROUTE_NO"       Value="当前执行路径" ></Caption>
+    <Caption Name="PACKAGE_GUID"        Value="数据包GUID" ></Caption>
+    <Caption Name="CMD_REQUEST_ID"      Value="请求下节指令ID" ></Caption>
+  </Captions>
+  <WebPage Title="指令结束处理">
+  </WebPage>
+  <Select>
+    <ParamPanel>
+      <ParamFields>
+        <ParamField FieldName="OBJID"         WIDTH="80"></ParamField>
+        <ParamField FieldName="CURR_LOC_NO"   WIDTH="100"></ParamField>
+        <ParamField FieldName="CMD_OBJID"     WIDTH="100"></ParamField>
+      </ParamFields>
+    </ParamPanel>
+    <MainGrid PageSize ="50">
+      <GridColumns>
+        <GridColumn ColumnName="OBJID"               WIDTH="80"></GridColumn>
+        <GridColumn ColumnName="PROC_STATUS"         WIDTH="80"></GridColumn>
+        <GridColumn ColumnName="ERR_CODE"            WIDTH="80"></GridColumn>
+        <GridColumn ColumnName="ERR_DESC"            WIDTH="160"></GridColumn>
+        <GridColumn ColumnName="PROC_CREATE_TIME"    WIDTH="150" ColumnType="Date" ColumnFormt="yyyy-MM-dd HH:mm:ss"></GridColumn>
+        <GridColumn ColumnName="PROC_EXCUTE_TIME"    WIDTH="150" ColumnType="Date" ColumnFormt="yyyy-MM-dd HH:mm:ss"></GridColumn>
+        <GridColumn ColumnName="PROC_FINISH_TIME"    WIDTH="150" ColumnType="Date" ColumnFormt="yyyy-MM-dd HH:mm:ss"></GridColumn>
+        <GridColumn ColumnName="CURR_LOC_NO"         WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="CMD_OBJID"           WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="TASK_NO"             WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="TASK_GUID"           WIDTH="160"></GridColumn>
+        <GridColumn ColumnName="FINISH_STATUS"       WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="PALLET_NO"           WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="TRANSFER_NO"         WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="ALL_ROUTE_NOS"       WIDTH="140"></GridColumn>
+        <GridColumn ColumnName="UNEXE_ROUTE_NOS"     WIDTH="140"></GridColumn>
+        <GridColumn ColumnName="CURR_ROUTE_NO"       WIDTH="100"></GridColumn>
+        <GridColumn ColumnName="PACKAGE_GUID"        WIDTH="160"></GridColumn>
+        <GridColumn ColumnName="CMD_REQUEST_ID"      WIDTH="100"></GridColumn>
+      </GridColumns>
+    </MainGrid>
+    <MainDetail>
+      <ParamFields>
+        <ParamField FieldName="OBJID"               ></ParamField>
+        <ParamField FieldName="PROC_STATUS"         ></ParamField>
+        <ParamField FieldName="ERR_CODE"            ></ParamField>
+        <ParamField FieldName="ERR_DESC"            ></ParamField>
+        <ParamField FieldName="PROC_CREATE_TIME"    ></ParamField>
+        <ParamField FieldName="PROC_EXCUTE_TIME"    ></ParamField>
+        <ParamField FieldName="PROC_FINISH_TIME"    ></ParamField>
+        <ParamField FieldName="CURR_LOC_NO"         ></ParamField>
+        <ParamField FieldName="CMD_OBJID"           ></ParamField>
+        <ParamField FieldName="TASK_NO"             ></ParamField>
+        <ParamField FieldName="TASK_GUID"           ></ParamField>
+        <ParamField FieldName="FINISH_STATUS"       ></ParamField>
+        <ParamField FieldName="PALLET_NO"           ></ParamField>
+        <ParamField FieldName="TRANSFER_NO"         ></ParamField>
+        <ParamField FieldName="ALL_ROUTE_NOS"       ></ParamField>
+        <ParamField FieldName="UNEXE_ROUTE_NOS"     ></ParamField>
+        <ParamField FieldName="CURR_ROUTE_NO"       ></ParamField>
+        <ParamField FieldName="PACKAGE_GUID"        ></ParamField>
+        <ParamField FieldName="CMD_REQUEST_ID"      ></ParamField>
+      </ParamFields>
+    </MainDetail>
+  </Select>
+</UiConfig>

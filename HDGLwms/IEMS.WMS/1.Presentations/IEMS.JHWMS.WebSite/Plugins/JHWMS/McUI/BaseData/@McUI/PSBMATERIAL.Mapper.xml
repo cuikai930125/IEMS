@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.Frame.DbCI.McUIService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+   <statements>
+    <select id="Select@PsbMaterial" parameterClass="int" resultClass="row">
+      <![CDATA[ 
+      SELECT T.OBJID,T.MATER_NO,T.MATER_NAME,T.MKIND_NAME,T.IKIND_NAME,T.MIN_TIME,T.MAX_TIME,T.MAIN_UNIT,T.MATER_SPEC,T.MATER_DESC
+            ,T.DELETE_FLAG,T.RECORD_USER_ID,T.RECORD_TIME
+        FROM PSB_MATERIAL T
+      ]]>
+      <dynamic prepend="WHERE">
+         <isNotNull property="where.MATER_NO" prepend="AND">
+           <![CDATA[ T.MATER_NO LIKE '%'+#where.MATER_NO#+'%']]>
+         </isNotNull>
+        <isNotNull property="where.MATER_NAME" prepend="AND">
+           <![CDATA[ T.MATER_NAME LIKE '%'+#where.MATER_NAME#+'%']]>
+        </isNotNull>
+        <isNotNull property="where.DELETE_FLAG" prepend="AND">
+          <![CDATA[ T.DELETE_FLAG = #where.DELETE_FLAG#]]>
+        </isNotNull>
+       </dynamic>
+       ORDER BY MATER_NO
+     </select>
+     <select id="Select+Update@PsbMaterial" parameterClass="int" resultClass="row">
+       <![CDATA[ 
+       SELECT * FROM PSB_MATERIAL T
+      ]]>
+       <dynamic prepend="WHERE">
+           <![CDATA[ T.OBJID = #OBJID#]]>
+       </dynamic>
+     </select>
+  </statements>
+</sqlMap>

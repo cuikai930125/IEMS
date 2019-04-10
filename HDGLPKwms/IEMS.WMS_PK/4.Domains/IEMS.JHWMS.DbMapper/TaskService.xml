@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.JHWMS.DbCI.TaskService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<statements>
+  <select id="GetTaskData" parameterClass="map" resultClass="Row">
+    <![CDATA[
+         SELECT T.TASK_GUID,T.TASK_NO,
+                CASE T.IO_TYPE WHEN 'I' THEN '入库' WHEN 'O' THEN '出库' WHEN 'M' THEN '移库' ELSE '移载' END IO_TYPE,
+                T.TRANSFER_NO,
+                ISNULL(T2.BIN_PLC_NO,T3.LOC_PLC_NO) SLOC_NO,
+                ISNULL(T4.BIN_PLC_NO,T5.LOC_PLC_NO) ELOC_NO,
+                T.PALLET_NO,T.CREATION_DATE,T.TASK_EXEC_END_DT,
+                ISNULL(T1.OBJID,0) OBJID,T1.SLOC_PLC_NO,T1.ELOC_PLC_NO,
+                T1.TRANSFER_NO EQUIP_NO,
+                CASE WHEN T1.CMD_STEP = '00' THEN '等待' WHEN T1.CMD_STEP = '02' THEN '执行' WHEN T1.CMD_STEP IS NULL THEN '未生成指令' END CMD_STEP
+          FROM WBS_TASK T
+          LEFT JOIN WBS_TASK_CMD T1
+            ON T1.TASK_GUID = T.TASK_GUID
+          LEFT JOIN PSB_BIN_STATUS T2
+            ON T2.BIN_NO = T.SLOC_NO
+          LEFT JOIN PSB_LOC T3
+            ON T3.LOC_NO = T.SLOC_NO
+          LEFT JOIN PSB_BIN_STATUS T4
+            ON T4.BIN_NO = T.ELOC_NO
+          LEFT JOIN PSB_LOC T5
+            ON T5.LOC_NO = T.ELOC_NO
+          WHERE 1=1
+        ]]>
+    <dynamic prepend="">
+      <isNotNull property="where.TASK_NO" prepend="AND">
+        <![CDATA[ t.TASK_NO = #where.TASK_NO#]]>
+      </isNotNull>
+      <isNotNull property="where.PALLET_NO" prepend="AND">
+        <![CDATA[ t.PALLET_NO like '%'+#where.PALLET_NO#+'%']]>
+      </isNotNull>
+    </dynamic>
+    <isNotNull property="OrderString" prepend=" ">
+      ORDER BY $OrderString$
+    </isNotNull>
+  </select>
+  <select id="GetCrnForkErrorStatus" parameterClass="map" resultClass="Row">
+    <![CDATA[
+        SELECT FS.CRN_NO,
+              FS.CRN_FORK_NO,
+              FS.TASK_NO,
+              CASE FS.TASK_TYPE WHEN 'I' THEN '入库' WHEN 'M' THEN '移库' ELSE '出库' END AS TASK_TYPE,
+                CASE WHEN T2.ERR_NAME IS NULL THEN '正常' ELSE T2.ERR_NAME END AS FAULT_NAME,
+              FS.FROM_BIN,FS.TO_BIN,FS.ACT_POS_X,FS.ACT_POS_Y,
+              FS.FIP_FAULT_NO,
+              FS.FIP_DATE,
+              FS.FIP_HANDLE_RESULT,
+              CASE FS.FIP_FLAG WHEN 0 THEN '正常' WHEN 1 THEN '待确认' WHEN 2 THEN '已确认' WHEN 3 THEN '已处理' END AS FIP_FLAG
+        FROM PEM_CRN_FORK_STATUS FS 
+        LEFT JOIN PSB_CRN_ERR T2 ON FS.FAULT_NO = T2.ERR_NO
+       ORDER BY FS.CRN_NO,FS.CRN_FORK_NO
+      ]]>
+  </select>
+  <procedure id="pack_3010_system_operation" parameterClass = "map" resultClass="string">
+    pack_3010_system_operation.manual_task
+    @{ILocNo, column=I_LOC_NO}
+    @{IPalletNo, column=I_PALLET_NO}
+  </procedure>
+  </statements>
+</sqlMap>

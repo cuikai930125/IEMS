@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IEMS.Frame.DbCI.McUIService"
+	xmlns="http://ibatis.apache.org/mapping"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+   <statements>
+    <select id="Select@Z50WbsTaskCmd" parameterClass="map" resultClass="row">
+      <![CDATA[ 
+      SELECT TOP 1000 T.OBJID,
+            T.TASK_NO,
+            CASE T.CMD_TYPE WHEN 'I' THEN '入库' WHEN 'O' THEN '出库' ELSE '移载' END AS CMD_TYPE,
+            T.SLOC_NO,
+            T.ELOC_NO,
+            T.SLOC_PLC_NO,
+            T.ELOC_PLC_NO,
+            T.CREATION_DATE,
+            T.EXCUTE_DATE,
+            T.FINISH_DATE,
+            T1.MATER_NO,
+            T1.MATER_NAME,
+            T.ROUTE_NO,
+            T.TRANSFER_NO,
+            T.FINISH_STATUS,
+            T.PALLET_NO,
+            T.ORDER_LINE_GUID,
+            CASE T.CMD_STEP WHEN '00' THEN '指令生成' WHEN '02' THEN '指令下传' ELSE '异常' END AS CMD_STEP,
+            T.PACKAGE_GUID,
+            T.ERR_NO,
+            T.ERR_NAME
+            FROM Z50_WBS_TASK_CMD T
+            LEFT JOIN WBS_PACKAGE_DATA T1
+              ON T.PACKAGE_GUID = T1.PACKAGE_GUID
+        WHERE 1=1
+      ]]>
+      <dynamic prepend="">
+        <isNotNull property="where.TASK_NO" prepend="AND">
+          <![CDATA[ T.TASK_NO  like '%'+#where.TASK_NO#+'%' ]]>
+        </isNotNull>
+        <isNotNull property="where.PALLET_NO" prepend="AND">
+          <![CDATA[ T.PALLET_NO  like '%'+#where.PALLET_NO#+'%' ]]>
+        </isNotNull>
+        <isNotNull property="where.ETIME" prepend="AND">
+          <![CDATA[ T.CREATION_DATE <= 1+#where.ETIME#  ]]>
+        </isNotNull>
+      </dynamic>
+      ORDER BY T.OBJID DESC
+    </select>
+
+     <select id="Select@Z50WbsTaskCmd@MainDetail" parameterClass="map" resultClass="row">
+       <![CDATA[
+      SELECT T.OBJID,
+            T.TASK_NO,
+            CASE T.CMD_TYPE WHEN 'I' THEN '入库' WHEN 'O' THEN '出库' ELSE '移载' END AS CMD_TYPE,
+            T.SLOC_NO,
+            T.ELOC_NO,
+            T.SLOC_PLC_NO,
+            T.ELOC_PLC_NO,
+            T.CREATION_DATE,
+            T.EXCUTE_DATE,
+            T.FINISH_DATE,
+            T1.MATER_NO,
+            T1.MATER_NAME,
+            T.ROUTE_NO,
+            T.TRANSFER_NO,
+            T.FINISH_STATUS,
+            T.PALLET_NO,
+            T.ORDER_LINE_GUID,
+            CASE T.CMD_STEP WHEN '00' THEN '指令生成' WHEN '02' THEN '指令下传' ELSE '异常' END AS CMD_STEP,
+            T.PACKAGE_GUID,
+            T.ERR_NO,
+            T.ERR_NAME
+            FROM Z50_WBS_TASK_CMD T
+            LEFT JOIN WBS_PACKAGE_DATA T1
+              ON T.PACKAGE_GUID = T1.PACKAGE_GUID
+        WHERE 1=1
+       ]]>
+       <dynamic prepend="">
+         <isNotNull property="where.OBJID" prepend="AND">
+           <![CDATA[ (T.OBJID = #OBJID#)]]>
+         </isNotNull>
+       </dynamic>
+     </select>
+  </statements>
+</sqlMap>
