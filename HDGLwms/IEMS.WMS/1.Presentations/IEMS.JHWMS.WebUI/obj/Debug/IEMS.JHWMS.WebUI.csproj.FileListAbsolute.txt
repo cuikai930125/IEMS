@@ -128,3 +128,15 @@ E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\obj\Debug\IEM
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\obj\Debug\IEMS.JHWMS.WebUI.csproj.CopyComplete
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\obj\Debug\IEMS.JHWMS.WebUI.dll
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\obj\Debug\IEMS.JHWMS.WebUI.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Debug\IEMS.JHWMS.WebUI.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Debug\IEMS.JHWMS.WebUI.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Debug\IEMS.Frame.WebUI.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Debug\IEMS.Frame.AppBiz.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Debug\IEMS.Frame.Entity.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Debug\IEMS.Frame.DbCI.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\bin\Debug\IEMS.Frame.DbRI.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\obj\Debug\IEMS.JHWMS.WebUI.csprojAssemblyReference.cache
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\obj\Debug\IEMS.JHWMS.WebUI.csproj.CoreCompileInputs.cache
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\obj\Debug\IEMS.JHWMS.WebUI.csproj.CopyComplete
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\obj\Debug\IEMS.JHWMS.WebUI.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\1.Presentations\IEMS.JHWMS.WebUI\obj\Debug\IEMS.JHWMS.WebUI.pdb

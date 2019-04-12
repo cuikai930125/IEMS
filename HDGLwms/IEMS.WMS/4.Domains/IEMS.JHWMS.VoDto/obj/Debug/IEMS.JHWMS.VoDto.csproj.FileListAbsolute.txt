@@ -58,3 +58,9 @@ E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.VoDto\bin\Debug\IEMS.JHWM
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.VoDto\obj\Debug\IEMS.JHWMS.VoDto.csproj.CoreCompileInputs.cache
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.VoDto\obj\Debug\IEMS.JHWMS.VoDto.dll
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.VoDto\obj\Debug\IEMS.JHWMS.VoDto.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.VoDto\bin\Debug\IEMS.JHWMS.VoDto.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.VoDto\bin\Debug\IEMS.JHWMS.VoDto.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.VoDto\obj\Debug\IEMS.JHWMS.VoDto.csprojAssemblyReference.cache
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.VoDto\obj\Debug\IEMS.JHWMS.VoDto.csproj.CoreCompileInputs.cache
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.VoDto\obj\Debug\IEMS.JHWMS.VoDto.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.VoDto\obj\Debug\IEMS.JHWMS.VoDto.pdb

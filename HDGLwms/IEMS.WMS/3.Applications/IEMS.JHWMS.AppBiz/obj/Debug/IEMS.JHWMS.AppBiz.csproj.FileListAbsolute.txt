@@ -266,3 +266,26 @@ E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\obj\Debug\IEM
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\obj\Debug\IEMS.JHWMS.AppBiz.csproj.CopyComplete
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\obj\Debug\IEMS.JHWMS.AppBiz.dll
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\obj\Debug\IEMS.JHWMS.AppBiz.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\IEMS.JHWMS.AppBiz.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\IEMS.JHWMS.AppBiz.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\IEMS.JHWMS.DbCI.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\IEMS.JHWMS.DbMapper.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\IEMS.JHWMS.DbRI.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\IEMS.JHWMS.Entity.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\IEMS.JHWMS.VoDto.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\MSTL.DbAccess.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\MSTL.ExcelData.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\MSTL.Extensions.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\MSTL.LogAgent.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\MSTL.McJson.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\MSTL.ResultStruct.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\IEMS.JHWMS.DbCI.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\IEMS.JHWMS.DbRI.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\IEMS.JHWMS.Entity.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\bin\Debug\IEMS.JHWMS.VoDto.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\obj\Debug\IEMS.JHWMS.AppBiz.csprojAssemblyReference.cache
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\obj\Debug\IEMS.JHWMS.AppBiz.csproj.CoreCompileInputs.cache
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\obj\Debug\IEMS.JHWMS.AppBiz.csproj.CopyComplete
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\obj\Debug\IEMS.JHWMS.AppBiz.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\3.Applications\IEMS.JHWMS.AppBiz\obj\Debug\IEMS.JHWMS.AppBiz.pdb

@@ -122,3 +122,14 @@ E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CopyComplete
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.DbRI.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.DbAccess.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\MSTL.LogAgent.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\bin\Debug\IEMS.JHWMS.Entity.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csprojAssemblyReference.cache
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CoreCompileInputs.cache
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.csproj.CopyComplete
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbRI\obj\Debug\IEMS.JHWMS.DbRI.pdb

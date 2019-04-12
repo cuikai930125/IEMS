@@ -6,7 +6,13 @@
    <statements>
      <select id="Select@LocErrLog" parameterClass="map" resultClass="row">    
       <![CDATA[        
-        SELECT LOC_PLC_NO,ERR_DESC,START_DATE,END_DATE,LAST_DATE FROM Z40_LOC_ERR_LOG T
+       SELECT OBJID
+      ,LOC_PLC_NO
+      ,ERR_DESC
+      ,ERR_BEGIN_TIME
+      ,ERR_END_TIME
+      ,ERR_SECONDS
+  FROM Z40_LOC_ERR_LOG T
       ]]>
        <dynamic prepend="WHERE">
          <isNotNull property="where.LOC_PLC_NO" prepend="AND">
@@ -15,14 +21,14 @@
          <isNotNull property="where.err_desc" prepend="AND">
            <![CDATA[ T.ERR_DESC like '%'+#where.ERR_DESC#+'%' ]]>
          </isNotNull>
-         <isNotNull property="where.START_DATE" prepend="AND">
-           <![CDATA[ T.START_DATE >=#where.B_TIME#  ]]>
+         <isNotNull property="where.ERR_BEGIN_TIME" prepend="AND">
+           <![CDATA[ T.ERR_BEGIN_TIME >=#where.B_TIME#  ]]>
          </isNotNull>
-         <isNotNull property="where.START_DATE" prepend="AND">
-           <![CDATA[ T.START_DATE <=1+ #where.E_TIME#  ]]>
+         <isNotNull property="where.ERR_BEGIN_TIME" prepend="AND">
+           <![CDATA[ T.ERR_BEGIN_TIME <=1+ #where.E_TIME#  ]]>
          </isNotNull>
        </dynamic>
-       ORDER BY T.START_DATE DESC
+       ORDER BY T.ERR_BEGIN_TIME DESC
      </select>
    </statements>
 </sqlMap>

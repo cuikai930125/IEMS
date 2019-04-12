@@ -89,3 +89,12 @@ E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\obj\Debug\IEMS.JHW
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\obj\Debug\IEMS.JHWMS.Entity.csproj.CopyComplete
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\obj\Debug\IEMS.JHWMS.Entity.dll
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\obj\Debug\IEMS.JHWMS.Entity.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\bin\Debug\IEMS.JHWMS.Entity.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\bin\Debug\IEMS.JHWMS.Entity.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\bin\Debug\MSTL.DbAccess.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\bin\Debug\MSTL.LogAgent.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\obj\Debug\IEMS.JHWMS.Entity.csprojAssemblyReference.cache
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\obj\Debug\IEMS.JHWMS.Entity.csproj.CoreCompileInputs.cache
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\obj\Debug\IEMS.JHWMS.Entity.csproj.CopyComplete
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\obj\Debug\IEMS.JHWMS.Entity.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.Entity\obj\Debug\IEMS.JHWMS.Entity.pdb

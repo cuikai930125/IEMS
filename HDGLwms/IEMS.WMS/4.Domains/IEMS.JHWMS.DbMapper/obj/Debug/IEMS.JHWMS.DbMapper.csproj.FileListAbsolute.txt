@@ -56,3 +56,9 @@ E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.J
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csproj.CoreCompileInputs.cache
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
 E:\00 MESNAC\WMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\bin\Debug\IEMS.JHWMS.DbMapper.pdb
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csprojAssemblyReference.cache
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.csproj.CoreCompileInputs.cache
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.dll
+E:\HDGL\Github\IEMS\HDGLwms\IEMS.WMS\4.Domains\IEMS.JHWMS.DbMapper\obj\Debug\IEMS.JHWMS.DbMapper.pdb
